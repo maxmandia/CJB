@@ -1,10 +1,10 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { Context } from "../App";
 import Header from "../components/Header";
 import "../styles/homepage.css";
 import SideBar from "../components/SideBar";
 function HomePage() {
-  const { setShowNav, showNav } = useContext(Context);
+  const { showNav } = useContext(Context);
   return (
     <div className="container">
       <Header />
