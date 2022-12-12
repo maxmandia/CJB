@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import { Context } from "../App";
 import { ReactComponent as Logo } from "../assets/logo.svg";
 import "../styles/header.css";
 import { List } from "phosphor-react";
 import { Outlet, Link } from "react-router-dom";
 
-function Header(props) {
-  const { setShowNav } = props;
+function Header() {
+  const { setShowNav } = useContext(Context);
   const [width, setWidth] = useState(window.innerWidth);
 
   function handleWindowSizeChange() {
@@ -24,6 +25,7 @@ function Header(props) {
         <Logo />
         {width <= 500 ? (
           <List
+            style={{ cursor: "pointer" }}
             onClick={() => {
               setShowNav(true);
             }}

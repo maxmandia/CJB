@@ -22,11 +22,12 @@
   position: absolute;
   left: 2.5rem;
   text-decoration: none;
-  list-style: none;
   margin-top: 6rem;
 }
 
-.links-container li {
+.link-sidebar {
   font-family: "SF-Regular";
   font-size: 1.7rem;
+  text-decoration: none;
+  color: black;
 }
