@@ -1,21 +1,42 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { ReactComponent as Logo } from "../assets/logo.svg";
 import "../styles/header.css";
 import { List } from "phosphor-react";
 function Header(props) {
   const { setShowNav } = props;
+  const [width, setWidth] = useState(window.innerWidth);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowSizeChange);
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+
   return (
     <div className="header-container">
       <div className="inner-header">
         <Logo />
-        <List
-          onClick={() => {
-            setShowNav(true);
-          }}
-          color="white"
-          height={40}
-          width={40}
-        />
+        {width <= 500 ? (
+          <List
+            onClick={() => {
+              setShowNav(true);
+            }}
+            color="white"
+            height={40}
+            width={40}
+          />
+        ) : (
+          <nav>
+            <li>Motion</li>
+            <li>Stills</li>
+            <li>Prints</li>
+            <li>About</li>
+          </nav>
+        )}
       </div>
     </div>
   );

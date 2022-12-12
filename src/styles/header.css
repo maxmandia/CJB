@@ -11,3 +11,16 @@
   width: 90%;
   padding: 1.5rem 2rem;
 }
+
+nav {
+  list-style: none;
+  display: flex;
+  font-family: "SF-Regular";
+  gap: 2rem;
+  color: white;
+  font-size: 1.3rem;
+}
+
+nav li {
+  cursor: pointer;
+}
