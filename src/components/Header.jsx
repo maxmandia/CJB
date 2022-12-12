@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { ReactComponent as Logo } from "../assets/logo.svg";
 import "../styles/header.css";
 import { List } from "phosphor-react";
+import { Outlet, Link } from "react-router-dom";
+
 function Header(props) {
   const { setShowNav } = props;
   const [width, setWidth] = useState(window.innerWidth);
@@ -31,10 +33,18 @@ function Header(props) {
           />
         ) : (
           <nav>
-            <li>Motion</li>
-            <li>Stills</li>
-            <li>Prints</li>
-            <li>About</li>
+            <Link className="link" to={"/motion"}>
+              Motion
+            </Link>
+            <Link className="link" to={"/motion"}>
+              Stills
+            </Link>
+            <Link className="link" to={"/motion"}>
+              Prints
+            </Link>
+            <Link className="link" to={"/motion"}>
+              About
+            </Link>
           </nav>
         )}
       </div>

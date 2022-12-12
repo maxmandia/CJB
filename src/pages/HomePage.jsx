@@ -6,7 +6,7 @@ import SideBar from "../components/SideBar";
 function HomePage() {
   const [showNav, setShowNav] = useState(false);
   return (
-    <>
+    <div className="container">
       <Header setShowNav={setShowNav} />
       {showNav && <SideBar setShowNav={setShowNav} />}
       <div>
@@ -18,7 +18,7 @@ function HomePage() {
         <h2>Cullen Blanchfield</h2>
         <h4>Photographer | Filmmaker</h4>
       </div>
-    </>
+    </div>
   );
 }
 
