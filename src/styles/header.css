@@ -1,8 +1,18 @@
 .header-container {
+  /* position: absolute; */
   background-color: transparent;
   width: 100%;
   display: flex;
   justify-content: center;
+  top: 0;
+}
+.header-container-black {
+  /* position: absolute; */
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 0;
 }
 
 .inner-header {

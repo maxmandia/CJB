@@ -1,4 +1,125 @@
 .motion-container {
-  background-color: #161616;
+  /* height: 100vh; */
+  background-color: black;
+}
+
+.motion-header-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.motion-header {
   height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.motion-header-text-container {
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+#motion-text {
+  align-self: center;
+  justify-self: center;
+  color: white;
+  font-size: 1rem;
+  font-family: "SF-Regular";
+}
+
+#motion-text-2 {
+  align-self: center;
+  justify-self: center;
+  color: white;
+  font-size: 2rem;
+  font-family: "SF-Bold";
+}
+
+.motion-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  /* top: 99vh; */
+  /* position: absolute; */
+  /* height: 40vh; */
+  width: 100vw;
+  background-color: black;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 0 3rem 0;
+  /* border-bottom: 1px solid grey;
+  margin-bottom: 10px; */
+}
+
+#feat-text {
+  font-size: 2rem;
+  font-family: "HV-Med";
+}
+
+.motion-desc p {
+  font-family: "SF-Bold";
+  font-size: 1.2rem;
+  color: white;
+  width: 90vw;
+}
+
+.motion-desc-text span {
+  color: black;
+  background-color: yellow;
+  padding: 0.2rem;
+  margin: 1.5rem;
+}
+
+/* video */
+
+.videos-container {
+  background-color: black;
+}
+
+.motion-loop-container {
+  /* height: 70vh; */
+  position: relative;
+  width: 100vw;
+  align-self: center;
+  justify-self: center;
+}
+
+.video {
+  border: 5px solid #7296a4;
+  border-radius: 4px;
+  /* padding: 10px; */
+  width: 90vw;
+  margin: 10px;
+  height: auto;
+  opacity: 0.85;
+}
+
+.title-container {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-text {
+  color: white;
+  font-size: 10px;
+  font-family: "HV-Med";
 }

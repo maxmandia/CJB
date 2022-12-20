@@ -13,6 +13,11 @@
   src: url("/src/assets/fonts/SF-Pro-Rounded-Regular.otf ");
 }
 
+@font-face {
+  font-family: HV-Med;
+  src: url("/src/assets/fonts/Helvetica-Medium.otf");
+}
+
 .App {
   text-align: center;
 }

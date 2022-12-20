@@ -5,9 +5,14 @@ import "../styles/header.css";
 import { List } from "phosphor-react";
 import { Outlet, Link } from "react-router-dom";
 
-function Header() {
+function Header(props) {
+  const { isBlack } = props;
   const { setShowNav } = useContext(Context);
   const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    console.log(isBlack);
+  }, [isBlack]);
 
   function handleWindowSizeChange() {
     setWidth(window.innerWidth);
@@ -20,7 +25,7 @@ function Header() {
   }, []);
 
   return (
-    <div className="header-container">
+    <div className={!isBlack ? "header-container" : "header-container-black"}>
       <div className="inner-header">
         <Logo />
         {width <= 500 ? (

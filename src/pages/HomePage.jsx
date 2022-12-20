@@ -7,7 +7,7 @@ function HomePage() {
   const { showNav } = useContext(Context);
   return (
     <div className="container">
-      <Header />
+      <Header isBlack={false} />
       {showNav && <SideBar />}
       <div>
         <video className="sizzle-container" autoPlay muted loop>
