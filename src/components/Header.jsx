@@ -3,16 +3,12 @@ import { Context } from "../App";
 import { ReactComponent as Logo } from "../assets/logo.svg";
 import "../styles/header.css";
 import { List } from "phosphor-react";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header(props) {
   const { isBlack } = props;
   const { setShowNav } = useContext(Context);
   const [width, setWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    console.log(isBlack);
-  }, [isBlack]);
 
   function handleWindowSizeChange() {
     setWidth(window.innerWidth);
