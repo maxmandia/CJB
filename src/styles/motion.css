@@ -64,13 +64,10 @@
   margin-bottom: 10px; */
 }
 
-#feat-text {
-  font-size: 2rem;
-  font-family: "HV-Med";
-}
-
 .motion-desc p {
   font-family: "SF-Bold";
+  /* line-height: 1.5rem; */
+
   font-size: 1.2rem;
   color: white;
   width: 90vw;
@@ -83,10 +80,25 @@
   margin: 1.5rem;
 }
 
+@media screen and (min-width: 480px) {
+  .motion-desc p {
+    line-height: 4rem;
+    font-size: 2rem;
+    width: 80%;
+  }
+  .motion-desc-text span {
+    color: black;
+    background-color: yellow;
+    padding: 0.2rem;
+    margin: 1.5rem;
+  }
+}
+
 /* video */
 
 .videos-container {
-  background-color: black;
+  /* background-color: black; */
+  padding-bottom: 7%;
 }
 
 .motion-loop-container {
@@ -120,6 +132,26 @@
 }
 .video-text {
   color: white;
-  font-size: 10px;
+  font-size: 1.2rem;
   font-family: "HV-Med";
+}
+
+@media screen and (min-width: 480px) {
+  .videos-container {
+    /* display: grid;
+    grid-template-columns: 100px 100px;
+    background-color: yellow; */
+  }
+  .video {
+    border: 5px solid #7296a4;
+    border-radius: 4px;
+    /* padding: 10px; */
+    width: 70vw;
+    margin: 2rem;
+    height: auto;
+    opacity: 0.85;
+  }
+  .video-text {
+    font-size: 2rem;
+  }
 }

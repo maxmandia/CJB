@@ -75,9 +75,6 @@ function MotionClip() {
           </video>
         </div>
       ) : (
-        // <video className="video" controls>
-        //   <source src="" />
-        // </video>
         <></>
       )}
     </div>

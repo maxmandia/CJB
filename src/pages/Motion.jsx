@@ -14,7 +14,7 @@ function Motion() {
       {showNav && <SideBar />}
       <Header isBlack={true} />
       <div className="motion-desc">
-        <p id="feat-text">Featuring</p>
+        {/* <p id="feat-text">Films include</p> */}
         <p className="motion-desc-text">
           <span>HESHE</span> <span>King Loser</span> <span>Lightphone</span>
           <span>London Film</span> <span>Fine Art America</span>

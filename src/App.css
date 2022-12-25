@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: HV-Med;
-  src: url("/src/assets/fonts/Helvetica-Medium.otf");
+  src: url("/src/assets/fonts/Helvetica-Medium.ttf");
 }
 
 .App {
