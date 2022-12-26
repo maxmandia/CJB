@@ -3,12 +3,32 @@ import { Context } from "../App";
 import Header from "../components/Header";
 import SideBar from "../components/SideBar";
 import "../styles/stills.css";
+import YellowFolder from "../assets/yellow-folder.png";
+
 function Stills() {
   const { showNav } = useContext(Context);
   return (
     <div className="stills-container">
       {showNav && <SideBar />}
-      <Header isBlack={true} />
+      <Header isBlack={false} />
+      <div className="all-folders-container">
+        <div className="folder-container">
+          <img className="folder" src={YellowFolder} alt="folder" />
+          <p>PORTRAITS</p>
+        </div>
+        <div className="folder-container">
+          <img className="folder" src={YellowFolder} alt="folder" />
+          <p>LIFESTYLE</p>
+        </div>
+        <div className="folder-container">
+          <img className="folder" src={YellowFolder} alt="folder" />
+          <p>LANDSCAPE</p>
+        </div>
+        <div className="folder-container">
+          <img className="folder" src={YellowFolder} alt="folder" />
+          <p>ARCHITECTURE</p>
+        </div>
+      </div>
     </div>
   );
 }

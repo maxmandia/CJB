@@ -1,3 +1,37 @@
 .stills-container {
-  background-color: black;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/windowsXP.webp?alt=media&token=34a367ea-c96a-417c-97e5-efc5998c67bb");
+  height: 100%;
+  width: auto;
+}
+
+.all-folders-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-right: 2rem;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.folder-container {
+  /* padding-right: 5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 5rem;
+}
+
+.folder {
+  width: 4rem;
+  height: auto;
+}
+
+.folder-container p {
+  font-family: SF-Bold;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: white;
 }
