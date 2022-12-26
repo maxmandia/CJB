@@ -5,7 +5,6 @@ import Motion from "./pages/Motion";
 import MotionClip from "./pages/MotionClip";
 import Stills from "./pages/Stills";
 import { createContext, useState } from "react";
-
 export const Context = createContext();
 
 function App() {
