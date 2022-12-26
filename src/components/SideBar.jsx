@@ -20,7 +20,7 @@ function SideBar() {
         <Link className="link-sidebar" to={"/motion"}>
           Motion
         </Link>
-        <Link className="link-sidebar" to={"/motion"}>
+        <Link className="link-sidebar" to={"/stills"}>
           Stills
         </Link>
         <Link className="link-sidebar" to={"/motion"}>

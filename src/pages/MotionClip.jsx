@@ -77,6 +77,7 @@ function MotionClip() {
       ) : (
         <></>
       )}
+      <h2>-Camera Operator -Gaffer -Editor -Colorist</h2>
     </div>
   );
 }
