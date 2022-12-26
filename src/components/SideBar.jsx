@@ -17,16 +17,32 @@ function SideBar() {
         weight="bold"
       />
       <ul className="links-container">
-        <Link className="link-sidebar" to={"/motion"}>
+        <Link
+          onClick={() => setShowNav(false)}
+          className="link-sidebar"
+          to={"/motion"}
+        >
           Motion
         </Link>
-        <Link className="link-sidebar" to={"/stills"}>
+        <Link
+          onClick={() => setShowNav(false)}
+          className="link-sidebar"
+          to={"/stills"}
+        >
           Stills
         </Link>
-        <Link className="link-sidebar" to={"/motion"}>
+        <Link
+          onClick={() => setShowNav(false)}
+          className="link-sidebar"
+          to={"/motion"}
+        >
           Prints
         </Link>
-        <Link className="link-sidebar" to={"/motion"}>
+        <Link
+          onClick={() => setShowNav(false)}
+          className="link-sidebar"
+          to={"/motion"}
+        >
           About
         </Link>
       </ul>

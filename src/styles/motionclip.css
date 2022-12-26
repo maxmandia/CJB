@@ -2,14 +2,45 @@
   background-color: transparent;
   height: 88vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  /* background-color: red; */
 }
 
 .full-video {
   width: 90vw;
   height: auto;
+  /* background-color: red; */
   /* padding-bottom: 10rem; */
+}
+
+.title {
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  font-family: "SF-Bold";
+}
+
+.roles-container {
+  width: 5vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  white-space: nowrap;
+  gap: 1rem;
+}
+
+.role {
+  color: white;
+  font-family: HV-Med;
+  margin-top: 2rem;
+}
+
+.video-desc {
+  color: white;
+  margin-top: 2rem;
+  width: 90vw;
 }
 
 @media screen and (min-width: 480px) {
