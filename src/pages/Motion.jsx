@@ -1,13 +1,42 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import { Context } from "../App";
 import Header from "../components/Header";
 import SideBar from "../components/SideBar";
 import "../styles/motion.css";
 import "../styles/header.css";
 import { Link } from "react-router-dom";
-
 function Motion() {
   const { showNav } = useContext(Context);
+  const [spanArr, setSpanArr] = useState([]);
+
+  const arr = [
+    "HESHE",
+    "King Loser",
+    "Lightphone",
+    "London Film",
+    "Fine Art America",
+    "NO COPY",
+    "AMN Welcome Back",
+    "Devaney Assembly",
+    "Carla Rockmore",
+  ];
+
+  function appendChildren() {
+    let i = 0;
+    let id;
+    id = setInterval(() => {
+      if (i == arr.length - 1) {
+        clearInterval(id);
+        return;
+      }
+      setSpanArr((current) => [...current, arr[i]]);
+      i += 1;
+    }, [200]);
+  }
+
+  useEffect(() => {
+    appendChildren();
+  }, []);
 
   return (
     <div className="motion-container">
@@ -16,10 +45,9 @@ function Motion() {
       <div className="motion-desc">
         {/* <p id="feat-text">Films include</p> */}
         <p className="motion-desc-text">
-          <span>HESHE</span> <span>King Loser</span> <span>Lightphone</span>
-          <span>London Film</span> <span>Fine Art America</span>
-          <span>NO COPY</span> <span>AMN Welcome Back</span>
-          <span>Devaney Assembly</span> <span>Carla Rockmore</span>
+          {spanArr.map((span, index) => {
+            return <span key={index}>{span}</span>;
+          })}
         </p>
       </div>
       <div className="videos-container">

@@ -67,10 +67,10 @@
 .motion-desc p {
   font-family: "SF-Bold";
   /* line-height: 1.5rem; */
-
   font-size: 1.2rem;
   color: white;
   width: 90vw;
+  word-wrap: break-word;
 }
 
 .motion-desc-text span {
@@ -78,6 +78,7 @@
   background-color: yellow;
   padding: 0.2rem;
   margin: 1.5rem;
+  word-wrap: break-word;
 }
 
 @media screen and (min-width: 480px) {
