@@ -1,0 +1,76 @@
+import React, { useContext, useState, useEffect } from "react";
+import { Context } from "../App";
+import Header from "../components/Header";
+import SideBar from "../components/SideBar";
+import "../styles/portraits.css";
+import { firebaseConfig } from "../firebaseConfig";
+import { initializeApp } from "firebase/app";
+import { useParams } from "react-router-dom";
+import { getStorage, ref, listAll, getDownloadURL } from "firebase/storage";
+const app = initializeApp(firebaseConfig);
+const storage = getStorage(app);
+
+function Portraits() {
+  const { showNav } = useContext(Context);
+  const [images, setImages] = useState([]);
+  const { id } = useParams();
+
+  async function getImages(id) {
+    const listRef = ref(storage, id);
+    let arr = [];
+    listAll(listRef)
+      .then(async (res) => {
+        async function getAllURLS() {
+          for (const img of res.items) {
+            let item = await getDownloadURL(img);
+            arr.push(item);
+            setImages((current) => [...current, item]);
+          }
+          // console.log(arr);
+          // setImages(arr);
+        }
+        getAllURLS();
+      })
+      .catch((error) => {
+        // Uh-oh, an error occurred!
+      });
+  }
+
+  useEffect(() => {
+    if (id) {
+      console.log(id);
+      getImages(id);
+    }
+  }, [id]);
+
+  useEffect(() => {
+    if (images) {
+      console.log(images);
+    }
+  }, [images]);
+
+  return (
+    <>
+      {showNav && <SideBar />}
+      <Header isBlack={true} />
+
+      <div className="portrait-container">
+        {images ? (
+          images.map((image) => {
+            return (
+              //   <div className="image-container">
+              <img className="image" src={image} alt="idk" />
+              //   </div>
+            );
+          })
+        ) : (
+          <>
+            <p>nothing to see here</p>
+          </>
+        )}
+      </div>
+    </>
+  );
+}
+
+export default Portraits;

@@ -1,5 +1,6 @@
 .stills-container {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/windowsXP.webp?alt=media&token=34a367ea-c96a-417c-97e5-efc5998c67bb");
+  /* background-image: url("https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/windowsXP.webp?alt=media&token=34a367ea-c96a-417c-97e5-efc5998c67bb"); */
+  background-color: black;
   height: 100%;
   width: auto;
 }
@@ -32,6 +33,12 @@
 .folder-container p {
   font-family: SF-Bold;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: white;
+}
+
+@media screen and (min-width: 480px) {
+  .all-folders-container {
+    padding-right: 4.2%;
+  }
 }
