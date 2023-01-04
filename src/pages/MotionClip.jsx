@@ -35,14 +35,14 @@ function MotionClip() {
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/London%20Film%20Final%20Cut.mp4?alt=media&token=c161499e-08f6-4951-b3fb-8dc0f974e874"
           );
           setRoles(["Director", "Editor", "DP"]);
-          setTitle("London Film");
+          setTitle("LONDON");
           break;
         case "4":
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HESHE%20Final%20Cut.mp4?alt=media&token=a01cca73-1827-4af2-b8f3-b31951424625"
           );
           setRoles(["Director", "Editor", "DP"]);
-          setTitle("HE SHE");
+          setTitle("HESHE");
           break;
         case "5":
           setURL(
@@ -56,14 +56,14 @@ function MotionClip() {
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/FineArtAmerica_FinalCut_AdobeExpress.mp4?alt=media&token=98adf58c-656f-4bb5-826d-546bc2a20206"
           );
           setRoles(["Director", "Editor", "DP", "Colorist"]);
-          setTitle("Fine Art America");
+          setTitle("Fine Art America / SuperStock");
           break;
         case "7":
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NOCOPY.mp4?alt=media&token=e72a3d2c-0439-47fe-b960-a9e28e2dfc04"
           );
           setRoles(["Director", "Editor", "DP"]);
-          setTitle("NO COPY");
+          setTitle("PhaseOne Digitization");
           break;
         case "8":
           setURL(
@@ -77,7 +77,7 @@ function MotionClip() {
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Devaney_Assembly.mp4?alt=media&token=b1979ede-b88c-4f2b-a0c0-33539060b485"
           );
           setRoles(["Editor", "DP"]);
-          setTitle("Devaney Assembly");
+          setTitle("The Devaney Collection");
           break;
         default:
           return;

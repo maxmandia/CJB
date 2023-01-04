@@ -36,13 +36,6 @@ function SideBar() {
           className="link-sidebar"
           to={"/motion"}
         >
-          Prints
-        </Link>
-        <Link
-          onClick={() => setShowNav(false)}
-          className="link-sidebar"
-          to={"/motion"}
-        >
           About
         </Link>
       </ul>

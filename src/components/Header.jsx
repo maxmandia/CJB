@@ -23,7 +23,9 @@ function Header(props) {
   return (
     <div className={!isBlack ? "header-container" : "header-container-black"}>
       <div className="inner-header">
-        <Logo />
+        <Link to={"/"}>
+          <Logo />
+        </Link>
         {width <= 500 ? (
           <List
             style={{ cursor: "pointer" }}
@@ -41,9 +43,6 @@ function Header(props) {
             </Link>
             <Link className="link" to={"/stills"}>
               Stills
-            </Link>
-            <Link className="link" to={"/motion"}>
-              Prints
             </Link>
             <Link className="link" to={"/motion"}>
               About

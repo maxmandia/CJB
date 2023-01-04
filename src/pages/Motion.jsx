@@ -106,7 +106,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">London Film</p>
+              <p className="video-text">LONDON</p>
             </div>
           </div>
         </Link>
@@ -172,7 +172,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">Fine Art America</p>
+              <p className="video-text">Fine Art America / SuperStock</p>
             </div>
           </div>
         </Link>
@@ -194,7 +194,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">NO COPY</p>
+              <p className="video-text">PhaseOne Digitization</p>
             </div>
           </div>
         </Link>
@@ -238,7 +238,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">Devaney</p>
+              <p className="video-text">The Devaney Collection</p>
             </div>
           </div>
         </Link>

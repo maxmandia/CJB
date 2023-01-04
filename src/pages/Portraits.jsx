@@ -17,22 +17,18 @@ function Portraits() {
 
   async function getImages(id) {
     const listRef = ref(storage, id);
-    let arr = [];
     listAll(listRef)
       .then(async (res) => {
         async function getAllURLS() {
           for (const img of res.items) {
             let item = await getDownloadURL(img);
-            arr.push(item);
             setImages((current) => [...current, item]);
           }
-          // console.log(arr);
-          // setImages(arr);
         }
         getAllURLS();
       })
       .catch((error) => {
-        // Uh-oh, an error occurred!
+        console.log(error);
       });
   }
 
