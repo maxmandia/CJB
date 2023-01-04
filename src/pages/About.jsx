@@ -4,6 +4,8 @@ import { Context } from "../App";
 import Header from "../components/Header";
 import SideBar from "../components/SideBar";
 import Cullen from "../assets/aboutme2.jpeg";
+import Footer from "../components/Footer";
+
 function About() {
   const { showNav } = useContext(Context);
 
@@ -26,6 +28,7 @@ function About() {
           director Stewart Cohen for 2 years out of Dallas, I am able to bring a
           plethora of skills and experience to a production.
         </p>
+        <Footer />
       </div>
     </>
   );
