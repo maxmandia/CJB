@@ -73,7 +73,7 @@ function Motion() {
             </div>
           </div>
         </Link>
-        <Link to="/motion/2">
+        {/* <Link to="/motion/2">
           <div className="motion-loop-container">
             <video className="video" autoPlay muted loop id="motion-loop">
               <source
@@ -87,7 +87,7 @@ function Motion() {
               <p className="video-text">King Loser</p>
             </div>
           </div>
-        </Link>
+        </Link> */}
         <Link to="/motion/3">
           <div className="motion-loop-container">
             <video

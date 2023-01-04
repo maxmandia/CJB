@@ -1,6 +1,10 @@
+.motion-clip-container {
+  background-color: black;
+}
+
 .full-video-container {
   background-color: transparent;
-  height: 88vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -38,15 +42,48 @@
 }
 
 .video-desc {
+  font-family: HV-Reg;
   color: white;
   margin-top: 2rem;
   width: 90vw;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.motion-grab-image {
+  width: 80vw;
+  height: auto;
+  margin: 2rem 0rem;
 }
 
 @media screen and (min-width: 480px) {
+  .full-video-container {
+    background-color: transparent;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: red; */
+  }
   .full-video {
     width: 50%;
     height: auto;
     /* padding-bottom: 10rem; */
+  }
+
+  .video-desc {
+    font-family: HV-Reg;
+    color: white;
+    margin-top: 1rem;
+    width: 70vw;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    padding: 2rem;
+  }
+  .motion-grab-image {
+    width: 60vw;
+    height: auto;
+    margin: 2rem 0rem;
   }
 }
