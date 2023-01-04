@@ -1,17 +1,39 @@
 .portrait-container {
   background-color: black;
-  display: grid;
-  grid-gap: 8rem;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 2rem;
 }
 
 .image {
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   object-fit: contain;
   margin: auto;
+  margin: 1rem;
   /* display: flex;
   justify-content: center;
   align-items: center; */
+}
+
+@media screen and (min-width: 480px) {
+  .portrait-container {
+    background-color: black;
+    display: grid;
+    grid-gap: 8rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5rem 5rem;
+  }
+
+  .image {
+    height: 40vh;
+    width: 100%;
+    object-fit: contain;
+    margin: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
 }

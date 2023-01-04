@@ -53,11 +53,7 @@ function Portraits() {
       <div className="portrait-container">
         {images ? (
           images.map((image) => {
-            return (
-              //   <div className="image-container">
-              <img className="image" src={image} alt="idk" />
-              //   </div>
-            );
+            return <img className="image" src={image} alt="idk" />;
           })
         ) : (
           <>
