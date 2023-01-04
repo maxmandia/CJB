@@ -6,6 +6,7 @@ import MotionClip from "./pages/MotionClip";
 import Stills from "./pages/Stills";
 import { createContext, useState } from "react";
 import Portraits from "./pages/Portraits";
+import About from "./pages/About";
 export const Context = createContext();
 
 function App() {
@@ -30,6 +31,10 @@ function App() {
     {
       path: "/stills/:id",
       element: <Portraits />,
+    },
+    {
+      path: "/about",
+      element: <About />,
     },
   ]);
 

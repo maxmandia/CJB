@@ -34,7 +34,7 @@ function SideBar() {
         <Link
           onClick={() => setShowNav(false)}
           className="link-sidebar"
-          to={"/motion"}
+          to={"/about"}
         >
           About
         </Link>

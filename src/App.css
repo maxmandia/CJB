@@ -18,6 +18,11 @@
   src: url("/src/assets/fonts/Helvetica-Medium.ttf");
 }
 
+@font-face {
+  font-family: HV-Reg;
+  src: url("/src/assets/fonts/Helvetica.ttf");
+}
+
 .App {
   text-align: center;
 }

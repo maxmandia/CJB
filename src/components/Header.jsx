@@ -44,7 +44,7 @@ function Header(props) {
             <Link className="link" to={"/stills"}>
               Stills
             </Link>
-            <Link className="link" to={"/motion"}>
+            <Link className="link" to={"/about"}>
               About
             </Link>
           </nav>

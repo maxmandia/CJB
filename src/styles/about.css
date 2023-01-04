@@ -1,0 +1,36 @@
+.about-container {
+  background-color: black;
+  height: 90vh;
+}
+
+.about-container img {
+  width: 90%;
+  height: auto;
+  margin-bottom: 5%;
+}
+
+.bio {
+  font-family: HV-Reg;
+  line-height: 23px;
+  color: white;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .about-container img {
+    width: auto;
+    height: 60vh;
+    margin-bottom: 3%;
+  }
+
+  .bio {
+    font-family: HV-Reg;
+    line-height: 23px;
+    color: white;
+    text-align: left;
+    width: 60%;
+    margin: auto;
+  }
+}
