@@ -131,7 +131,7 @@ function Motion() {
             >
               <source
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HESHE%20snippet.mp4?alt=media&token=357912c1-234a-41fd-9325-86a0a622ac18"
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HESHE_Thumbnail.mp4?alt=media&token=be43fa39-c228-44ec-8ba8-fd8b0a29abd7"
                 }
                 type="video/mp4"
               />
