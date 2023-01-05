@@ -21,7 +21,7 @@ function HomePage() {
       </div>
       <div className="name-container">
         <h2>Cullen Blanchfield</h2>
-        <h4>Photographer | Filmmaker</h4>
+        <h4>Photographer | Director | Cinematographer | Editor</h4>
       </div>
     </div>
   );
