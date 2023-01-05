@@ -153,7 +153,29 @@ function MotionClip() {
       <Header isBlack={true} />
       {URL ? (
         <div className="full-video-container">
-          {title && <h2 className="title">{title}</h2>}
+          {/* {title && <h2 className="title">{title}</h2>} */}
+          {title === "LONDON" ? (
+            <a
+              className="film-freeway"
+              href="https://filmfreeway.com/LondonDallasStreetChoir"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h2 className="title">{title}</h2>
+            </a>
+          ) : title === "THE HEART OF TX" ? (
+            <a
+              className="film-freeway"
+              href="https://filmfreeway.com/TheHeartofTexas"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h2 className="title">{title}</h2>
+            </a>
+          ) : (
+            <h2 className="title">{title}</h2>
+          )}{" "}
+          }
           <video controls className="full-video">
             <source src={URL} type="video/mp4" />
           </video>

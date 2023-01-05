@@ -2,6 +2,10 @@
   background-color: black;
 }
 
+.film-freeway {
+  text-decoration: solid white underline;
+}
+
 .full-video-container {
   background-color: transparent;
   height: fit-content;
