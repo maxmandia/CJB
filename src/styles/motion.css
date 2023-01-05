@@ -81,6 +81,10 @@
   word-wrap: break-word;
 }
 
+.motion-desc-text span:hover {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 480px) {
   .motion-desc p {
     line-height: 4rem;
