@@ -216,6 +216,16 @@ function MotionClip() {
                 return <p className="role">{role}</p>;
               })}
           </div>
+          {title === "Lightphone" && (
+            <div className="roles-container">
+              <p className="role">Director + DP Stewart Cohen</p>
+            </div>
+          )}
+          {title === "Carla Rockmore" && (
+            <div className="roles-container">
+              <p className="role">Director: Stewart Cohen</p>
+            </div>
+          )}
           <article className="video-desc">{desc}</article>
           {images ? (
             <div className="images-container">

@@ -218,7 +218,7 @@ function Motion() {
             >
               <source
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NOCOPY%20snippet.mp4?alt=media&token=70ea2607-03ec-4192-9963-0615b70a374d"
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FPhaseOne_Thumbnail.mp4?alt=media&token=9158ee8c-8fd7-4ca5-96d9-50b09a8cc459"
                 }
                 type="video/mp4"
               />
@@ -240,7 +240,7 @@ function Motion() {
             >
               <source
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/motion-loop.mp4?alt=media&token=c6dcbf5c-a392-400e-954e-097bc71835f7"
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FLightphone_Thumbnail.mp4?alt=media&token=14f1d604-8c42-46a3-ba4d-50d7593971b7"
                 }
                 type="video/mp4"
               />
@@ -262,7 +262,7 @@ function Motion() {
             >
               <source
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/fine%20art%20america%20snippet.mp4?alt=media&token=a53aa8f0-4ff1-486d-9e5e-a536fc0a77d3"
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FFineArtAmerica_Thumbnail.mp4?alt=media&token=2226f74f-8cc0-4101-bcc6-773f37b732ee"
                 }
                 type="video/mp4"
               />
@@ -284,7 +284,7 @@ function Motion() {
             >
               <source
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/AMN%20snippet.mp4?alt=media&token=27b414e5-8376-4659-bf49-387d35dc20f6"
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FAMNWelcomeBack_Thumbnail.mp4?alt=media&token=c25f922a-b296-407f-92e0-92eebc2aec46"
                 }
                 type="video/mp4"
               />
