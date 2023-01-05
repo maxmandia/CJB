@@ -53,14 +53,19 @@ function MotionClip() {
           );
           break;
 
-        // case "2":
-        //   setURL(
-        //     "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/King%20Loser%20Final%20Cut.mp4?alt=media&token=0f377f95-6cd6-4f46-baa5-2132a319664a"
-        //   );
-        //   setRoles(["Director", "Editor", "DP"]);
-        //   setTitle("King Loser");
-        //   break;
+        case "2":
+          getImages("MotionGrabs/TheHeartofTexas");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HeartofTexas_MEDIA%2FTheHeartofTexas_FinalCut.mp4?alt=media&token=2b16ad35-72ff-4342-9a2d-34745fac789d"
+          );
+          setRoles(["Director", "Producer", "Editor", "DP"]);
+          setTitle("THE HEART OF TX");
+          setDesc(
+            "Dallas is home to over 100,000 refugees, where more than half come to Vickery Meadow nicknamed 'Mini United Nations'. In Vickery Meadow lies Heart House, an after-school program for refugee children specializing in Social Emotional Learning (SEL). 'The Heart of Texas' provides an outline of the child refugee crisis, and how Heart House provides impactful support to refugee children."
+          );
+          break;
         case "3":
+          getImages("MotionGrabs/LONDON");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/London%20Film%20Final%20Cut.mp4?alt=media&token=c161499e-08f6-4951-b3fb-8dc0f974e874"
           );
@@ -72,6 +77,7 @@ function MotionClip() {
 
           break;
         case "4":
+          getImages("MotionGrabs/HeShe");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HESHE%20Final%20Cut.mp4?alt=media&token=a01cca73-1827-4af2-b8f3-b31951424625"
           );
@@ -82,6 +88,7 @@ function MotionClip() {
           );
           break;
         case "5":
+          getImages("MotionGrabs/AMN");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/AMNWelcomeBackV4.mp4?alt=media&token=a36a32d9-6594-4f3c-8391-4640cf479ef0"
           );
@@ -103,6 +110,7 @@ function MotionClip() {
           );
           break;
         case "7":
+          getImages("MotionGrabs/PhaseOne");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NOCOPY.mp4?alt=media&token=e72a3d2c-0439-47fe-b960-a9e28e2dfc04"
           );

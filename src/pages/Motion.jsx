@@ -73,21 +73,21 @@ function Motion() {
             </div>
           </div>
         </Link>
-        {/* <Link to="/motion/2">
+        <Link to="/motion/2">
           <div className="motion-loop-container">
             <video className="video" autoPlay muted loop id="motion-loop">
               <source
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/king%20loser%20snippet.mp4?alt=media&token=db1d4088-e60c-48ec-b1e6-6dfb4633064d"
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HeartofTexas_MEDIA%2FHeartOfTXThumbnail.mp4?alt=media&token=8a40e1f7-1d8e-4b08-b74f-7463e67df76b"
                 }
                 type="video/mp4"
               />
             </video>
             <div className="title-container">
-              <p className="video-text">King Loser</p>
+              <p className="video-text">THE HEART OF TX</p>
             </div>
           </div>
-        </Link> */}
+        </Link>
         <Link to="/motion/3">
           <div className="motion-loop-container">
             <video
