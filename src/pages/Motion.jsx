@@ -9,9 +9,8 @@ import { useNavigate } from "react-router-dom";
 
 function Motion() {
   const { showNav } = useContext(Context);
-  const [spanArr, setSpanArr] = useState([]);
   const navigate = useNavigate();
-
+  const [spanArr, setSpanArr] = useState([]);
   const arr = [
     "London",
     "Hunt Institute Entrepreneur Campaign",
@@ -36,23 +35,19 @@ function Motion() {
         clearInterval(id);
         return;
       }
-      setSpanArr((current) => [...current, arr[i]]);
+      const elToAdd = arr[i];
+      setSpanArr((current) => [...current, elToAdd]);
       i = i + 1;
-    }, [200]);
+    }, 200);
   }
 
   useEffect(() => {
     appendChildren();
-    // eslint-disable-next-line
   }, []);
-
-  useEffect(() => {
-    console.log(spanArr);
-  }, [spanArr]);
 
   function handleNav(index) {
     console.log(index);
-    // navigate(`/motion/${index}`);
+    navigate(`/motion/${index}`);
   }
 
   return (
@@ -335,6 +330,28 @@ function Motion() {
             </video>
             <div className="title-container">
               <p className="video-text">The Devaney Collection</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/other">
+          <div className="motion-loop-container">
+            <video
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #dd9cb8" }}
+            >
+              <source
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/neenthumbnail.mp4?alt=media&token=1ca946ce-b3fb-4062-af92-e6667cfc9151"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">More</p>
             </div>
           </div>
         </Link>
