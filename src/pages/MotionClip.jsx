@@ -59,7 +59,7 @@ function MotionClip() {
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HeartofTexas_MEDIA%2FTheHeartofTexas_FinalCut.mp4?alt=media&token=2b16ad35-72ff-4342-9a2d-34745fac789d"
           );
           setRoles(["Director", "Producer", "Editor", "DP"]);
-          setTitle("THE HEART OF TX");
+          setTitle("The Heart of Texas");
           setDesc(
             "Dallas is home to over 100,000 refugees, where more than half come to Vickery Meadow nicknamed 'Mini United Nations'. In Vickery Meadow lies Heart House, an after-school program for refugee children specializing in Social Emotional Learning (SEL). 'The Heart of Texas' provides an outline of the child refugee crisis, and how Heart House provides impactful support to refugee children."
           );
@@ -163,7 +163,7 @@ function MotionClip() {
             >
               <h2 className="title">{title}</h2>
             </a>
-          ) : title === "THE HEART OF TX" ? (
+          ) : title === "The Heart of Texas" ? (
             <a
               className="film-freeway"
               href="https://filmfreeway.com/TheHeartofTexas"

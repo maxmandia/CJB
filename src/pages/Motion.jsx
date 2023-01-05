@@ -13,7 +13,7 @@ function Motion() {
     "HESHE",
     "King Loser",
     "Lightphone",
-    "THE HEART OF TX",
+    "The Heart of Texas",
     "London Film",
     "Fine Art America",
     "NO COPY",
@@ -86,7 +86,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">THE HEART OF TX</p>
+              <p className="video-text">The Heart of Texas</p>
             </div>
           </div>
         </Link>
