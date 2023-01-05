@@ -7,7 +7,11 @@ import IDMB from "../assets/idmb.png";
 function Footer() {
   return (
     <div className="footer-container">
-      <a href="">
+      <a
+        href="https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/UpdatedResume2023%20copy.jpg?alt=media&token=41f669aa-89a6-4763-8f4c-ded1b48f0ece"
+        target="_blank"
+        rel="noreferrer"
+      >
         <Scroll color="white" size={28} />
       </a>
       <a
