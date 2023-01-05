@@ -13,6 +13,7 @@ function Motion() {
     "HESHE",
     "King Loser",
     "Lightphone",
+    "THE HEART OF TX",
     "London Film",
     "Fine Art America",
     "NO COPY",
