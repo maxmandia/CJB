@@ -38,6 +38,12 @@ function Stills() {
             <p>ARCHITECTURE</p>
           </div>
         </Link>
+        <Link style={{ "text-decoration": "none" }} to={"/stills/Jewelry"}>
+          <div className="folder-container">
+            <img className="folder" src={YellowFolder} alt="folder" />
+            <p>JEWELRY</p>
+          </div>
+        </Link>
       </div>
     </div>
   );
