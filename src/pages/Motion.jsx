@@ -61,7 +61,7 @@ function Motion() {
               muted
               loop
               id="motion-loop"
-              style={{ border: "5px solid #dcd7c9" }}
+              style={{ border: "5px solid #66f9af" }}
             >
               <source
                 src={
@@ -77,7 +77,14 @@ function Motion() {
         </Link>
         <Link to="/motion/2">
           <div className="motion-loop-container">
-            <video className="video" autoPlay muted loop id="motion-loop">
+            <video
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #f22170" }}
+            >
               <source
                 src={
                   "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HeartofTexas_MEDIA%2FHeartOfTXThumbnail.mp4?alt=media&token=8a40e1f7-1d8e-4b08-b74f-7463e67df76b"
@@ -142,7 +149,7 @@ function Motion() {
               muted
               loop
               id="motion-loop"
-              style={{ border: "5px solid #fff2b7" }}
+              style={{ border: "5px solid #d122ee" }}
             >
               <source
                 src={
