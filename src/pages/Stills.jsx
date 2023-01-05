@@ -32,7 +32,7 @@ function Stills() {
             <p>LANDSCAPE</p>
           </div>
         </Link>
-        <Link style={{ "text-decoration": "none" }} to={"/stills/landscapes"}>
+        <Link style={{ "text-decoration": "none" }} to={"/stills/Architecture"}>
           <div className="folder-container">
             <img className="folder" src={YellowFolder} alt="folder" />
             <p>ARCHITECTURE</p>
