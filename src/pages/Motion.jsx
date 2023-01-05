@@ -98,7 +98,7 @@ function Motion() {
               muted
               loop
               id="motion-loop"
-              style={{ border: "5px solid #935430" }}
+              style={{ border: "5px solid #1106B2" }}
             >
               <source
                 src={
@@ -120,7 +120,7 @@ function Motion() {
               muted
               loop
               id="motion-loop"
-              style={{ border: "5px solid #f22170" }}
+              style={{ border: "5px solid #42B3FD" }}
             >
               <source
                 src={
@@ -143,7 +143,7 @@ function Motion() {
               muted
               loop
               id="motion-loop"
-              style={{ border: "5px solid #f22170" }}
+              style={{ border: "5px solid #32AB17" }}
             >
               <source
                 src={
