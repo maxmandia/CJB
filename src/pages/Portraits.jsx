@@ -7,6 +7,7 @@ import { firebaseConfig } from "../firebaseConfig";
 import { initializeApp } from "firebase/app";
 import { useParams } from "react-router-dom";
 import { getStorage, ref, listAll, getDownloadURL } from "firebase/storage";
+import Footer from "../components/Footer";
 const app = initializeApp(firebaseConfig);
 const storage = getStorage(app);
 
@@ -61,6 +62,7 @@ function Portraits() {
           </>
         )}
       </div>
+      <Footer />
     </>
   );
 }

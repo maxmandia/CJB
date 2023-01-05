@@ -7,6 +7,8 @@ import "../styles/motionclip.css";
 import { getStorage, ref, listAll, getDownloadURL } from "firebase/storage";
 import { firebaseConfig } from "../firebaseConfig";
 import { initializeApp } from "firebase/app";
+import Footer from "../components/Footer";
+import FilmFreeway from "../assets/filmfreeway.png";
 const app = initializeApp(firebaseConfig);
 const storage = getStorage(app);
 
@@ -185,28 +187,7 @@ function MotionClip() {
       <Header isBlack={true} />
       {URL ? (
         <div className="full-video-container">
-          {/* {title && <h2 className="title">{title}</h2>} */}
-          {title === "LONDON" ? (
-            <a
-              className="film-freeway"
-              href="https://filmfreeway.com/LondonDallasStreetChoir"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h2 className="title">{title}</h2>
-            </a>
-          ) : title === "The Heart of Texas" ? (
-            <a
-              className="film-freeway"
-              href="https://filmfreeway.com/TheHeartofTexas"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h2 className="title">{title}</h2>
-            </a>
-          ) : (
-            <h2 className="title">{title}</h2>
-          )}
+          <h2 className="title">{title}</h2>
           <video controls className="full-video">
             <source src={URL} type="video/mp4" />
           </video>
@@ -225,6 +206,24 @@ function MotionClip() {
             <div className="roles-container">
               <p className="role">Director: Stewart Cohen</p>
             </div>
+          )}
+          {title === "LONDON" && (
+            <a
+              href="https://filmfreeway.com/LondonDallasStreetChoir"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img id="film-logo" src={FilmFreeway} alt="idmb" />
+            </a>
+          )}
+          {title === "The Heart of Texas" && (
+            <a
+              href="https://filmfreeway.com/TheHeartofTexas"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img id="film-logo" src={FilmFreeway} alt="idmb" />
+            </a>
           )}
           <article className="video-desc">{desc}</article>
           {images ? (
@@ -246,6 +245,7 @@ function MotionClip() {
       ) : (
         <></>
       )}
+      <Footer />
     </div>
   );
 }

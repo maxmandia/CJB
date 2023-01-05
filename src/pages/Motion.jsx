@@ -6,7 +6,7 @@ import "../styles/motion.css";
 import "../styles/header.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-
+import Footer from "../components/Footer";
 function Motion() {
   const { showNav } = useContext(Context);
   const navigate = useNavigate();
@@ -356,6 +356,7 @@ function Motion() {
           </div>
         </Link>
       </div>
+      <Footer />
     </div>
   );
 }

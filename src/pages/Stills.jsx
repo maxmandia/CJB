@@ -9,7 +9,7 @@ import Yellow from "../assets/yellow.png";
 import Blue from "../assets/blue_02.png";
 import Green from "../assets/green_02.png";
 import Pink from "../assets/pink_02.png";
-
+import Footer from "../components/Footer";
 function Stills() {
   const { showNav } = useContext(Context);
 
@@ -49,6 +49,7 @@ function Stills() {
           </div>
         </Link>
       </div>
+      <Footer />
     </div>
   );
 }
