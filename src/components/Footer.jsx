@@ -3,7 +3,7 @@ import "../styles/footer.css";
 import { InstagramLogo } from "phosphor-react";
 import { Scroll } from "phosphor-react";
 import { LinkedinLogo } from "phosphor-react";
-
+import IDMB from "../assets/idmb.png";
 function Footer() {
   return (
     <div className="footer-container">
@@ -23,6 +23,13 @@ function Footer() {
         rel="noreferrer"
       >
         <LinkedinLogo color="white" size={28} />
+      </a>
+      <a
+        href="https://www.imdb.com/name/nm11206306/?ref_=nv_sr_srsg_0"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img id="idmb" src={IDMB} alt="idmb" />
       </a>
     </div>
   );
