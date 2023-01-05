@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Context } from "../App";
 import "../styles/sidebar.css";
 import { X } from "phosphor-react";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function SideBar() {
   const { setShowNav } = useContext(Context);

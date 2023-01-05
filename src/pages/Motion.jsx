@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Context } from "../App";
 import Header from "../components/Header";
 import SideBar from "../components/SideBar";
@@ -26,7 +26,7 @@ function Motion() {
     let i = 0;
     let id;
     id = setInterval(() => {
-      if (i == arr.length - 1) {
+      if (i === arr.length - 1) {
         clearInterval(id);
         return;
       }
@@ -37,6 +37,7 @@ function Motion() {
 
   useEffect(() => {
     appendChildren();
+    // eslint-disable-next-line
   }, []);
 
   return (
