@@ -13,10 +13,10 @@ function Motion() {
   const [spanArr, setSpanArr] = useState([]);
   const arr = [
     "London",
-    "Hunt Institute Entrepreneur Campaign",
-    "The Heart of Texas",
-    "Kessler Orchestra",
-    "LOVE IN THE MORNING/EVENING",
+    // "Hunt Institute Entrepreneur Campaign",
+    // "The Heart of Texas",
+    // "Kessler Orchestra",
+    // "LOVE IN THE MORNING/EVENING",
     "Carla Rockmore",
     "PhaseOne Digitization",
     "Lightphone",
@@ -45,9 +45,25 @@ function Motion() {
     appendChildren();
   }, []);
 
-  function handleNav(index) {
-    console.log(index);
-    navigate(`/motion/${index}`);
+  function handleNav(span) {
+    console.log(span);
+    if (span === "London") {
+      navigate(`/motion/${0}`);
+    } else if (span === "Carla Rockmore") {
+      navigate(`/motion/${5}`);
+    } else if (span === "PhaseOne Digitization") {
+      navigate(`/motion/${6}`);
+    } else if (span === "Lightphone") {
+      navigate(`/motion/${7}`);
+    } else if (span === "Fine Art America") {
+      navigate(`/motion/${8}`);
+    } else if (span === "AMN Welcome Back") {
+      navigate(`/motion/${9}`);
+    } else if (span === "HESHE") {
+      navigate(`/motion/${10}`);
+    } else if (span === "Devaney Assembly") {
+      navigate(`/motion/${11}`);
+    }
   }
 
   return (
@@ -60,7 +76,7 @@ function Motion() {
           {spanArr.length > 0 &&
             spanArr.map((span, index) => {
               return (
-                <span onClick={() => handleNav(index)} key={index}>
+                <span onClick={() => handleNav(span)} key={index}>
                   {span}
                 </span>
               );
@@ -78,24 +94,21 @@ function Motion() {
               loop
               id="motion-loop"
               type="video/mp4"
-              src={
-                "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/london%20snippet.mp4?alt=media&token=8a9b9b77-345a-4be8-a0bb-b317d1e86071"
-              }
               style={{ border: "5px solid #935430" }}
             >
-              {/* <source
+              <source
                 src={
                   "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/london%20snippet.mp4?alt=media&token=8a9b9b77-345a-4be8-a0bb-b317d1e86071"
                 }
                 type="video/mp4"
-              /> */}
+              />
             </video>
             <div className="title-container">
               <p className="video-text">LONDON</p>
             </div>
           </div>
         </Link>
-        <Link to="/motion/1">
+        {/* <Link to="/motion/1">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -117,8 +130,8 @@ function Motion() {
               <p className="video-text">Hunt Institute Entrepreneur Campaign</p>
             </div>
           </div>
-        </Link>
-        <Link to="/motion/2">
+        </Link> */}
+        {/* <Link to="/motion/2">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -140,9 +153,9 @@ function Motion() {
               <p className="video-text">The Heart of Texas</p>
             </div>
           </div>
-        </Link>
+        </Link> */}
 
-        <Link to="/motion/3">
+        {/* <Link to="/motion/3">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -164,8 +177,8 @@ function Motion() {
               <p className="video-text">Kessler Orchestra</p>
             </div>
           </div>
-        </Link>
-        <Link to="/motion/4">
+        </Link> */}
+        {/* <Link to="/motion/4">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -187,7 +200,7 @@ function Motion() {
               <p className="video-text">LOVE IN THE MORNING/EVENING</p>
             </div>
           </div>
-        </Link>
+        </Link> */}
         <Link to="/motion/5">
           <div className="motion-loop-container">
             <video
