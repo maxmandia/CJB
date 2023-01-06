@@ -61,7 +61,7 @@ function MotionClip() {
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HeartofTexas_MEDIA%2FTheHeartofTexas_FinalCut.mp4?alt=media&token=2b16ad35-72ff-4342-9a2d-34745fac789d"
           );
           setRoles(["Director", "Producer", "Editor", "DP"]);
-          setTitle("The Heart of Texas");
+          setTitle("Hunt Institute Entrepreneur Campaign");
           setDesc(
             "Dallas is home to over 100,000 refugees, where more than half come to Vickery Meadow nicknamed 'Mini United Nations'. In Vickery Meadow lies Heart House, an after-school program for refugee children specializing in Social Emotional Learning (SEL). 'The Heart of Texas' provides an outline of the child refugee crisis, and how Heart House provides impactful support to refugee children."
           );
@@ -83,7 +83,7 @@ function MotionClip() {
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HESHE%20Final%20Cut.mp4?alt=media&token=a01cca73-1827-4af2-b8f3-b31951424625"
           );
           setRoles(["Director", "Editor", "DP"]);
-          setTitle("HESHE");
+          setTitle("Kessler Orchestra");
           setDesc(
             "HESHE is the exploration of nightmares and reality, and how sometimes they can become mixed through paranoia."
           );
@@ -94,7 +94,7 @@ function MotionClip() {
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/AMNWelcomeBackV4.mp4?alt=media&token=a36a32d9-6594-4f3c-8391-4640cf479ef0"
           );
           setRoles(["Director", "Editor", "DP"]);
-          setTitle("AMN Welcome Back");
+          setTitle("LOVE IN THE MORNING/EVENING");
           setDesc(
             "The objective of this piece was to showcase the welcoming nature of AMN Healthcare, a global healthcare staffing company, in their first day back in the office in over two years amid the COVID-19 pandemic. Many new hires had never met their coworkers, let alone seen the headquarters of their employer."
           );
