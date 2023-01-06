@@ -20,7 +20,7 @@ function HomePage() {
         >
           <source
             src={
-              "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/sizzle.mp4?alt=media&token=26ef66b4-be9b-45c2-b8a1-677963f92c6f"
+              "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/MotionReel2023.mp4?alt=media&token=78dbcb9d-bc16-4b59-9c92-557bbc654644"
             }
             type="video/mp4"
           />
