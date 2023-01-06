@@ -10,7 +10,14 @@ function HomePage() {
       <Header isBlack={false} />
       {showNav && <SideBar />}
       <div>
-        <video className="sizzle-container" autoPlay muted loop>
+        <video
+          className="sizzle-container"
+          autoPlay
+          muted
+          loop
+          defaultMuted
+          playsInline
+        >
           <source
             src={
               "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/sizzle.mp4?alt=media&token=26ef66b4-be9b-45c2-b8a1-677963f92c6f"
