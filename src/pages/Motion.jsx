@@ -71,19 +71,24 @@ function Motion() {
         <Link to="/motion/0">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
               loop
               id="motion-loop"
+              type="video/mp4"
+              src={
+                "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/london%20snippet.mp4?alt=media&token=8a9b9b77-345a-4be8-a0bb-b317d1e86071"
+              }
               style={{ border: "5px solid #935430" }}
             >
-              <source
+              {/* <source
                 src={
                   "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/london%20snippet.mp4?alt=media&token=8a9b9b77-345a-4be8-a0bb-b317d1e86071"
                 }
                 type="video/mp4"
-              />
+              /> */}
             </video>
             <div className="title-container">
               <p className="video-text">LONDON</p>
@@ -93,6 +98,7 @@ function Motion() {
         <Link to="/motion/1">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
@@ -115,6 +121,7 @@ function Motion() {
         <Link to="/motion/2">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
@@ -138,6 +145,7 @@ function Motion() {
         <Link to="/motion/3">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
@@ -160,6 +168,7 @@ function Motion() {
         <Link to="/motion/4">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
@@ -182,6 +191,7 @@ function Motion() {
         <Link to="/motion/5">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
@@ -204,6 +214,7 @@ function Motion() {
         <Link to="/motion/6">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
@@ -226,6 +237,7 @@ function Motion() {
         <Link to="/motion/7">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
@@ -248,6 +260,7 @@ function Motion() {
         <Link to="/motion/8">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
@@ -270,6 +283,7 @@ function Motion() {
         <Link to="/motion/9">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
@@ -292,6 +306,7 @@ function Motion() {
         <Link to="/motion/10">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
@@ -314,6 +329,7 @@ function Motion() {
         <Link to="/motion/11">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
@@ -336,6 +352,7 @@ function Motion() {
         <Link to="/motion/other">
           <div className="motion-loop-container">
             <video
+              playsInline
               className="video"
               autoPlay
               muted
