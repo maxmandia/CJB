@@ -14,7 +14,7 @@ function Motion() {
   const arr = [
     "London",
     // "Hunt Institute Entrepreneur Campaign",
-    // "The Heart of Texas",
+    "The Heart of Texas",
     // "Kessler Orchestra",
     // "LOVE IN THE MORNING/EVENING",
     "Carla Rockmore",
@@ -49,6 +49,8 @@ function Motion() {
     console.log(span);
     if (span === "London") {
       navigate(`/motion/${0}`);
+    } else if (span === "The Heart of Texas") {
+      navigate(`/motion/${2}`);
     } else if (span === "Carla Rockmore") {
       navigate(`/motion/${5}`);
     } else if (span === "PhaseOne Digitization") {
@@ -131,7 +133,7 @@ function Motion() {
             </div>
           </div>
         </Link> */}
-        {/* <Link to="/motion/2">
+        <Link to="/motion/2">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -153,7 +155,7 @@ function Motion() {
               <p className="video-text">The Heart of Texas</p>
             </div>
           </div>
-        </Link> */}
+        </Link>
 
         {/* <Link to="/motion/3">
           <div className="motion-loop-container">
