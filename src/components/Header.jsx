@@ -24,7 +24,7 @@ function Header(props) {
     <div className={!isBlack ? "header-container" : "header-container-black"}>
       <div className="inner-header">
         <Link to={"/"}>
-          <Logo />
+          <Logo height={60} width={60} />
         </Link>
         {width <= 500 ? (
           <List
