@@ -239,7 +239,7 @@ function Motion() {
             </div>
           </div>
         </Link> */}
-        <Link to="/motion/5">
+        <Link to="/motion/8">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -248,17 +248,17 @@ function Motion() {
               muted
               loop
               id="motion-loop"
-              style={{ border: "5px solid #fc7a08" }}
+              style={{ border: "5px solid #352682" }}
             >
               <source
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/carla%20snippet.mp4?alt=media&token=68c6215f-8a1d-4e5b-936a-22153bb2faf2"
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FFineArtAmerica_Thumbnail.mp4?alt=media&token=2226f74f-8cc0-4101-bcc6-773f37b732ee"
                 }
                 type="video/mp4"
               />
             </video>
             <div className="title-container">
-              <p className="video-text">Carla Rockmore</p>
+              <p className="video-text">Fine Art America / SuperStock</p>
             </div>
           </div>
         </Link>
@@ -285,6 +285,30 @@ function Motion() {
             </div>
           </div>
         </Link>
+        <Link to="/motion/5">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #fc7a08" }}
+            >
+              <source
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/carla%20snippet.mp4?alt=media&token=68c6215f-8a1d-4e5b-936a-22153bb2faf2"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">Carla Rockmore</p>
+            </div>
+          </div>
+        </Link>
+
         <Link to="/motion/9">
           <div className="motion-loop-container">
             <video
@@ -328,29 +352,6 @@ function Motion() {
             </video>
             <div className="title-container">
               <p className="video-text">Lightphone</p>
-            </div>
-          </div>
-        </Link>
-        <Link to="/motion/8">
-          <div className="motion-loop-container">
-            <video
-              playsInline
-              className="video"
-              autoPlay
-              muted
-              loop
-              id="motion-loop"
-              style={{ border: "5px solid #352682" }}
-            >
-              <source
-                src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FFineArtAmerica_Thumbnail.mp4?alt=media&token=2226f74f-8cc0-4101-bcc6-773f37b732ee"
-                }
-                type="video/mp4"
-              />
-            </video>
-            <div className="title-container">
-              <p className="video-text">Fine Art America / SuperStock</p>
             </div>
           </div>
         </Link>
