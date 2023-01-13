@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState, useRef } from "react";
 import { Context } from "../App";
 import Header from "../components/Header";
 import SideBar from "../components/SideBar";
@@ -10,6 +10,8 @@ import Footer from "../components/Footer";
 function Motion() {
   const { showNav } = useContext(Context);
   const navigate = useNavigate();
+  const reelRef = useRef();
+  const sourceRef = useRef();
   const [spanArr, setSpanArr] = useState([]);
   const arr = [
     "London",
@@ -22,8 +24,8 @@ function Motion() {
     "Lightphone",
     "Fine Art America",
     "AMN Welcome Back",
-    "HESHE",
-    "Devaney Assembly",
+    // "HESHE",
+    // "Devaney Assembly",
   ];
 
   function appendChildren() {
@@ -31,7 +33,7 @@ function Motion() {
     let id;
 
     id = setInterval(() => {
-      if (i === arr.length - 1) {
+      if (i === arr.length) {
         clearInterval(id);
         return;
       }
@@ -85,7 +87,41 @@ function Motion() {
             })}
         </p>
       </div>
-      <div className="videos-container">
+      <div
+        className="videos-container"
+        onClick={() => {
+          sourceRef.current.src =
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Reel2023_V3.mp4?alt=media&token=aec6ec1c-cbce-4fc7-be46-30773468fee6";
+          reelRef.current.src =
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Reel2023_V3.mp4?alt=media&token=aec6ec1c-cbce-4fc7-be46-30773468fee6";
+          reelRef.current.requestFullscreen();
+          console.log(sourceRef.current.src);
+        }}
+      >
+        <div className="motion-loop-container">
+          <video
+            ref={reelRef}
+            playsInline
+            className="video"
+            autoPlay
+            muted
+            loop
+            id="motion-loop"
+            type="video/mp4"
+            style={{ border: "5px solid #935430" }}
+          >
+            <source
+              ref={sourceRef}
+              src={
+                "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/ReelThumbnail.mp4?alt=media&token=8c9bf73c-40c3-462d-b1a9-cd025b2535ce"
+              }
+              type="video/mp4"
+            />
+          </video>
+          <div className="title-container">
+            <p className="video-text">Reel</p>
+          </div>
+        </div>
         <Link to="/motion/0">
           <div className="motion-loop-container">
             <video
@@ -249,6 +285,29 @@ function Motion() {
             </div>
           </div>
         </Link>
+        <Link to="/motion/9">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #d122ee" }}
+            >
+              <source
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FAMNWelcomeBack_Thumbnail.mp4?alt=media&token=c25f922a-b296-407f-92e0-92eebc2aec46"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">AMN Welcome Back</p>
+            </div>
+          </div>
+        </Link>
         <Link to="/motion/7">
           <div className="motion-loop-container">
             <video
@@ -295,30 +354,8 @@ function Motion() {
             </div>
           </div>
         </Link>
-        <Link to="/motion/9">
-          <div className="motion-loop-container">
-            <video
-              playsInline
-              className="video"
-              autoPlay
-              muted
-              loop
-              id="motion-loop"
-              style={{ border: "5px solid #d122ee" }}
-            >
-              <source
-                src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FAMNWelcomeBack_Thumbnail.mp4?alt=media&token=c25f922a-b296-407f-92e0-92eebc2aec46"
-                }
-                type="video/mp4"
-              />
-            </video>
-            <div className="title-container">
-              <p className="video-text">AMN Welcome Back</p>
-            </div>
-          </div>
-        </Link>
-        <Link to="/motion/10">
+
+        {/* <Link to="/motion/10">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -340,8 +377,8 @@ function Motion() {
               <p className="video-text">HESHE</p>
             </div>
           </div>
-        </Link>
-        <Link to="/motion/11">
+        </Link> */}
+        {/* <Link to="/motion/11">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -363,7 +400,7 @@ function Motion() {
               <p className="video-text">The Devaney Collection</p>
             </div>
           </div>
-        </Link>
+        </Link> */}
         <Link to="/motion/other">
           <div className="motion-loop-container">
             <video
