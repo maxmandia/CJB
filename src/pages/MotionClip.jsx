@@ -104,7 +104,7 @@ function MotionClip() {
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/CarlaRockmore_Sizzle_60_V2_AdobeExpress.mp4?alt=media&token=67d7300c-39df-497f-8be6-8296b1071347"
           );
-          setRoles(["Editor", "DP"]);
+          setRoles(["Camera Operator", "Gaffer", "Editor", "Colorist"]);
           setTitle("Carla Rockmore");
           setDesc(
             "Carla Rockmore has ignited into a Tik Tok superstar over the past year, and has begun to produce her personal line of clothing and jewelry. My task was to visually captivate the prospective customer by portraying Carla feeling confident, inspired, and sexy in her new drop. “Carla Rockmore catapulted into the zeitgeist, seemingly overnight. But the influencer, who was deemed the ‘Carrie Bradshaw of TikTok,’ has a relationship with fashion that goes well beyond her fun styling videos on the buzzy app. Rockmore is a woman who wears a plethora of hats, both figuratively and literally. A tenured jewelry designer by trade, the social media star is a stylist, wife, and mother to two boys—but ultimately, she is someone who believes in the power of personal style. And she has 1.2 million followers hanging on her every word.” - Harper’s Bazaar"
@@ -148,7 +148,7 @@ function MotionClip() {
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/AMNWelcomeBackV4.mp4?alt=media&token=a36a32d9-6594-4f3c-8391-4640cf479ef0"
           );
-          setRoles(["Director", "Editor", "DP"]);
+          setRoles(["Editor", "DP"]);
           setTitle("AMN Welcome Back");
           setDesc(
             "The objective of this piece was to showcase the welcoming nature of AMN Healthcare, a global healthcare staffing company, in their first day back in the office in over two years amid the COVID-19 pandemic. Many new hires had never met their coworkers, let alone seen the headquarters of their employer."
@@ -204,6 +204,11 @@ function MotionClip() {
           )}
           {title === "Carla Rockmore" && (
             <div className="roles-container">
+              <p className="role">Director + DP: Stewart Cohen</p>
+            </div>
+          )}
+          {title === "AMN Welcome Back" && (
+            <div className="roles-container">
               <p className="role">Director: Stewart Cohen</p>
             </div>
           )}
@@ -225,6 +230,7 @@ function MotionClip() {
               <img id="film-logo" src={FilmFreeway} alt="idmb" />
             </a>
           )}
+
           <article className="video-desc">{desc}</article>
           {images ? (
             <div className="images-container">
