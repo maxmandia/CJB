@@ -87,18 +87,18 @@ function Motion() {
             })}
         </p>
       </div>
-      <div
-        className="videos-container"
-        onClick={() => {
-          sourceRef.current.src =
-            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Reel2023_V3.mp4?alt=media&token=aec6ec1c-cbce-4fc7-be46-30773468fee6";
-          reelRef.current.src =
-            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Reel2023_V3.mp4?alt=media&token=aec6ec1c-cbce-4fc7-be46-30773468fee6";
-          reelRef.current.requestFullscreen();
-          console.log(sourceRef.current.src);
-        }}
-      >
-        <div className="motion-loop-container">
+      <div className="videos-container">
+        <div
+          className="motion-loop-container"
+          onClick={() => {
+            sourceRef.current.src =
+              "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Reel2023_V3.mp4?alt=media&token=aec6ec1c-cbce-4fc7-be46-30773468fee6";
+            reelRef.current.src =
+              "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Reel2023_V3.mp4?alt=media&token=aec6ec1c-cbce-4fc7-be46-30773468fee6";
+            reelRef.current.requestFullscreen();
+            console.log(sourceRef.current.src);
+          }}
+        >
           <video
             ref={reelRef}
             playsInline
