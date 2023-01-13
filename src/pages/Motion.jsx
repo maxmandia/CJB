@@ -108,7 +108,7 @@ function Motion() {
             loop
             id="motion-loop"
             type="video/mp4"
-            style={{ border: "5px solid #935430" }}
+            style={{ border: "5px solid #66e9af" }}
           >
             <source
               ref={sourceRef}
