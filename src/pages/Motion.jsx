@@ -113,7 +113,7 @@ function Motion() {
             <source
               ref={sourceRef}
               src={
-                "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/ReelThumbnail.mp4?alt=media&token=8c9bf73c-40c3-462d-b1a9-cd025b2535ce"
+                "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/ReelThumbnail_Revised.mp4?alt=media&token=41f6de4f-444d-4fc9-a7cc-244e468923b0"
               }
               type="video/mp4"
             />
