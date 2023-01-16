@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <a
-        href="https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/UpdatedResume2023%20copy.jpg?alt=media&token=41f669aa-89a6-4763-8f4c-ded1b48f0ece"
+        href="https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/UpdatedResume2023_V2.jpg?alt=media&token=feaf89a8-dbec-4111-9e44-1aeb285ca983"
         target="_blank"
         rel="noreferrer"
       >
