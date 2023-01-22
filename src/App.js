@@ -1,5 +1,9 @@
 import "./App.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  createHashRouter,
+} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Motion from "./pages/Motion";
 import MotionClip from "./pages/MotionClip";
@@ -12,7 +16,7 @@ export const Context = createContext();
 
 function App() {
   const [showNav, setShowNav] = useState(false);
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <HomePage />,
