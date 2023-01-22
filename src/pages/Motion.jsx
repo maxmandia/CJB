@@ -96,6 +96,7 @@ function Motion() {
             reelRef.current.src =
               "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Reel2023_V3.mp4?alt=media&token=aec6ec1c-cbce-4fc7-be46-30773468fee6";
             reelRef.current.requestFullscreen();
+            reelRef.current.webkitRequestFullScreen();
             console.log(sourceRef.current.src);
           }}
         >
