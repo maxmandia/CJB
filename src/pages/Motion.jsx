@@ -16,11 +16,13 @@ function Motion() {
   const arr = [
     "London",
     // "Hunt Institute Entrepreneur Campaign",
+    "NEXUS SECURITY",
     "The Heart of Texas",
     // "Kessler Orchestra",
     // "LOVE IN THE MORNING/EVENING",
     "Carla Rockmore",
     "PhaseOne Digitization",
+    "BORROW",
     "Lightphone",
     "Fine Art America",
     "AMN Welcome Back",
@@ -51,8 +53,12 @@ function Motion() {
     console.log(span);
     if (span === "London") {
       navigate(`/motion/${0}`);
+    } else if (span === "NEXUS SECURITY") {
+      navigate(`/motion/${1}`);
     } else if (span === "The Heart of Texas") {
       navigate(`/motion/${2}`);
+    } else if (span === "BORROW") {
+      navigate(`/motion/${3}`);
     } else if (span === "Carla Rockmore") {
       navigate(`/motion/${5}`);
     } else if (span === "PhaseOne Digitization") {
@@ -123,6 +129,29 @@ function Motion() {
             <p className="video-text">Reel</p>
           </div>
         </div>
+        <Link to="/motion/1">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #1106B2" }}
+            >
+              <source
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FNexusThumbnail.mp4?alt=media&token=aef3d5b9-2d2a-497f-baa9-30b4ce74d717"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">NEXUS SECURITY</p>
+            </div>
+          </div>
+        </Link>
         <Link to="/motion/0">
           <div className="motion-loop-container">
             <video
@@ -147,29 +176,7 @@ function Motion() {
             </div>
           </div>
         </Link>
-        {/* <Link to="/motion/1">
-          <div className="motion-loop-container">
-            <video
-              playsInline
-              className="video"
-              autoPlay
-              muted
-              loop
-              id="motion-loop"
-              style={{ border: "5px solid #1106B2" }}
-            >
-              <source
-                src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/london%20snippet.mp4?alt=media&token=8a9b9b77-345a-4be8-a0bb-b317d1e86071"
-                }
-                type="video/mp4"
-              />
-            </video>
-            <div className="title-container">
-              <p className="video-text">Hunt Institute Entrepreneur Campaign</p>
-            </div>
-          </div>
-        </Link> */}
+
         <Link to="/motion/2">
           <div className="motion-loop-container">
             <video
@@ -193,30 +200,6 @@ function Motion() {
             </div>
           </div>
         </Link>
-
-        {/* <Link to="/motion/3">
-          <div className="motion-loop-container">
-            <video
-              playsInline
-              className="video"
-              autoPlay
-              muted
-              loop
-              id="motion-loop"
-              style={{ border: "5px solid #32AB17" }}
-            >
-              <source
-                src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HeartofTexas_MEDIA%2FHeartOfTXThumbnail.mp4?alt=media&token=8a40e1f7-1d8e-4b08-b74f-7463e67df76b"
-                }
-                type="video/mp4"
-              />
-            </video>
-            <div className="title-container">
-              <p className="video-text">Kessler Orchestra</p>
-            </div>
-          </div>
-        </Link> */}
         {/* <Link to="/motion/4">
           <div className="motion-loop-container">
             <video
@@ -283,6 +266,29 @@ function Motion() {
             </video>
             <div className="title-container">
               <p className="video-text">PhaseOne Digitization</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/3">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #32AB17" }}
+            >
+              <source
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FBorrowThumbnail.mp4?alt=media&token=dfe5fc8f-5556-448d-9f8b-548d47544749"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">BORROW</p>
             </div>
           </div>
         </Link>

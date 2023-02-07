@@ -56,14 +56,14 @@ function MotionClip() {
           break;
 
         case "1":
-          getImages("MotionGrabs/TheHeartofTexas");
+          getImages("MotionGrabs/Nexus");
           setURL(
-            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HeartofTexas_MEDIA%2FTheHeartofTexas_FinalCut.mp4?alt=media&token=2b16ad35-72ff-4342-9a2d-34745fac789d"
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Nexus_ToWebsite.mp4?alt=media&token=88247063-2305-4f0b-88f0-2edde2a6b600"
           );
-          setRoles(["Director", "Producer", "Editor", "DP"]);
-          setTitle("Hunt Institute Entrepreneur Campaign");
+          setRoles(["Director", "Producer", "Editor", "DP", "Colorist"]);
+          setTitle("NEXUS SECURITY");
           setDesc(
-            "Dallas is home to over 100,000 refugees, where more than half come to Vickery Meadow nicknamed 'Mini United Nations'. In Vickery Meadow lies Heart House, an after-school program for refugee children specializing in Social Emotional Learning (SEL). 'The Heart of Texas' provides an outline of the child refugee crisis, and how Heart House provides impactful support to refugee children."
+            "Nexus Security aims to resolve the precision agriculture access gap in Texas by improving the existing soil database of the region to make it easier to apply for these technologies in historically ignored areas. This initiative will improve the quality of life of farmers, increase resiliency ahead of an uncertain future, and secure our access to food and water as a nation. My task was to tell the story and impact of Nexus Security and their founder/CEO Michaela Emma."
           );
           break;
         case "2":
@@ -78,14 +78,14 @@ function MotionClip() {
           );
           break;
         case "3":
-          getImages("MotionGrabs/HeShe");
+          getImages("MotionGrabs/Borrow");
           setURL(
-            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/HESHE%20Final%20Cut.mp4?alt=media&token=a01cca73-1827-4af2-b8f3-b31951424625"
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Borrow_ToWebsite.mp4?alt=media&token=5ec74a03-b2e5-4a1f-8440-fa995b364a73"
           );
-          setRoles(["Director", "Editor", "DP"]);
-          setTitle("Kessler Orchestra");
+          setRoles(["Director", "Producer", "Editor", "DP", "Colorist"]);
+          setTitle("BORROW");
           setDesc(
-            "HESHE is the exploration of nightmares and reality, and how sometimes they can become mixed through paranoia."
+            "Borrow is a sustainable network that connects people to increase the value of what they own and reduce the waste they create. Their mission is to connect businesses and people to harness the advantage of great equipment and skilled professionals. My goal was to tell the story and impact of Borrow and their founder/CEO Katie Lewis."
           );
           break;
         case "4":
