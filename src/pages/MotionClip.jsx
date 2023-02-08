@@ -58,7 +58,7 @@ function MotionClip() {
         case "1":
           getImages("MotionGrabs/Nexus");
           setURL(
-            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Nexus_ToWebsite.mp4?alt=media&token=88247063-2305-4f0b-88f0-2edde2a6b600"
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/RevisedCuts_Borrow_Nexus%2FNexus_ToWebsite_V2.mp4?alt=media&token=dbad0e15-9c84-4b75-ac06-ba16d7fd3a20"
           );
           setRoles(["Director", "Producer", "Editor", "DP", "Colorist"]);
           setTitle("NEXUS SECURITY");
@@ -80,7 +80,7 @@ function MotionClip() {
         case "3":
           getImages("MotionGrabs/Borrow");
           setURL(
-            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Borrow_ToWebsite.mp4?alt=media&token=5ec74a03-b2e5-4a1f-8440-fa995b364a73"
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/RevisedCuts_Borrow_Nexus%2FBorrow_ToWebsite_V2.mp4?alt=media&token=17dac332-1e28-4e83-9028-e0a0d8d3ea0f"
           );
           setRoles(["Director", "Producer", "Editor", "DP", "Colorist"]);
           setTitle("BORROW");
