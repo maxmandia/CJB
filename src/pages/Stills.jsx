@@ -8,7 +8,6 @@ import Orange from "../assets/orange_01.png";
 import Yellow from "../assets/yellow.png";
 import Blue from "../assets/blue_02.png";
 import Green from "../assets/green_02.png";
-import Pink from "../assets/pink_02.png";
 import Footer from "../components/Footer";
 function Stills() {
   const { showNav } = useContext(Context);
@@ -42,12 +41,12 @@ function Stills() {
             <p>ARCHITECTURE</p>
           </div>
         </Link>
-        <Link style={{ "text-decoration": "none" }} to={"/stills/Jewelry"}>
+        {/* <Link style={{ "text-decoration": "none" }} to={"/stills/Jewelry"}>
           <div className="folder-container">
             <img className="folder" src={Pink} alt="folder" />
             <p>JEWELRY</p>
           </div>
-        </Link>
+        </Link> */}
       </div>
       <Footer />
     </div>
