@@ -43,6 +43,25 @@ function MotionClip() {
   useEffect(() => {
     if (id) {
       switch (id) {
+        case "reel":
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FCullenBlanchfield_DirectorDP_Reel_2023.mp4?alt=media&token=13a51f33-ef50-4f6f-a855-49bf32fb32b8"
+          );
+          setRoles(["Director", "DP"]);
+          setTitle("REEL");
+          setDesc(
+            "As a director, I have also DP'd all of my projects. However, I have worked with multiple directors as a DP, and I love working with all kinds of different creatives. My passion is to portray and evoke human emotion cinematically. Capturing someone's personality through a lens is my favorite creative challenge and journey."
+          );
+          break;
+        case "operator-reel":
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FCullenBlanchfield_CameraOperator_Reel_2023.mp4?alt=media&token=bde8a9bc-6ec5-45dd-bf2a-e5444361d171"
+          );
+          setTitle("OPERATOR REEL");
+          setDesc(
+            "Over the last 2.5 years I have worked full time at a boutique production company in Dallas, Texas called SCP (Stewart Cohen Pictures) after graduating film school at SMU. I served as the First Assistant Camera and gear tech and worked my way up to camera operate on our productions. I have also served as a camera operator on multiple feature length documentaries and episodics while managing a demanding full-time job. I have extensive experience operating RED, Sony and Canon camera systems as well as MOVI, Ronin, and other camera support systems."
+          );
+          break;
         case "0":
           getImages("MotionGrabs/LONDON");
           setURL(
@@ -58,7 +77,7 @@ function MotionClip() {
         case "1":
           getImages("MotionGrabs/Nexus");
           setURL(
-            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/RevisedCuts_Borrow_Nexus%2FNexus_ToWebsite_V2.mp4?alt=media&token=dbad0e15-9c84-4b75-ac06-ba16d7fd3a20"
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FCJB_NexusSecurity_Final.mp4?alt=media&token=506731e4-44c2-467c-822f-f8630284c943"
           );
           setRoles(["Director", "Producer", "Editor", "DP", "Colorist"]);
           setTitle("NEXUS SECURITY");
@@ -80,7 +99,7 @@ function MotionClip() {
         case "3":
           getImages("MotionGrabs/Borrow");
           setURL(
-            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/RevisedCuts_Borrow_Nexus%2FBorrow_ToWebsite_V2.mp4?alt=media&token=17dac332-1e28-4e83-9028-e0a0d8d3ea0f"
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FCJB_Borrow_Final.mp4?alt=media&token=d2168ffe-3545-433a-9aa5-d77edfc0bed9"
           );
           setRoles(["Director", "Producer", "Editor", "DP", "Colorist"]);
           setTitle("BORROW");
@@ -108,6 +127,39 @@ function MotionClip() {
           setTitle("Carla Rockmore");
           setDesc(
             "Carla Rockmore has ignited into a Tik Tok superstar over the past year, and has begun to produce her personal line of clothing and jewelry. My task was to visually captivate the prospective customer by portraying Carla feeling confident, inspired, and sexy in her new drop. “Carla Rockmore catapulted into the zeitgeist, seemingly overnight. But the influencer, who was deemed the ‘Carrie Bradshaw of TikTok,’ has a relationship with fashion that goes well beyond her fun styling videos on the buzzy app. Rockmore is a woman who wears a plethora of hats, both figuratively and literally. A tenured jewelry designer by trade, the social media star is a stylist, wife, and mother to two boys—but ultimately, she is someone who believes in the power of personal style. And she has 1.2 million followers hanging on her every word.” - Harper’s Bazaar"
+          );
+          break;
+        case "panacea":
+          getImages("NEWCUTS_REELS_APRIL_2023/stillgrabs/socialpanacea");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FCJB_SocialPanacea_Final.mp4?alt=media&token=e92aa387-3e34-4eae-a521-eb9c44a76862"
+          );
+          setRoles(["Director", "Editor", "DP"]);
+          setTitle("The Social Panacea");
+          setDesc(
+            "The Social Panacea is an app geared towards people with social anxiety making new friends. This app was founded in 2021 by Madison McMahan, and includes not only a network of potential future best friends, but best practices to use while meeting new people. My goal as the director of the project was to capture the authenticity of Madison, and her personal story with social anxiety."
+          );
+          break;
+        case "minerva":
+          getImages("NEWCUTS_REELS_APRIL_2023/stillgrabs/minerva");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FCJB_Minerva_Final.mp4?alt=media&token=3ebda40d-8fd5-49cb-bd7c-1a8ba2600726"
+          );
+          setRoles(["Director", "Editor", "DP"]);
+          setTitle("Minerva");
+          setDesc(
+            "Minerva has developed a scalable, low-cost, solar-powered, and small computer system that creates a mock internet for use by schools that simply can't afford internet. With Minerva, students and teachers have access to millions of digital resources, including video lectures, entire school courses and thousands of books - all without needing an internet connection. Minerva has developed a scalable, low-cost, solar-powered, and small computer system that creates a mock internet for use by schools that simply can't afford internet. With Minerva, students and teachers have access to millions of digital resources, including video lectures, entire school courses and thousands of books - all without needing an internet connection. My task as the director and DP was to capture the story and future plans of Minerva, in efforts to use this short video in fundraising and networking efforts. "
+          );
+          break;
+        case "smu-rowing":
+          getImages("NEWCUTS_REELS_APRIL_2023/stillgrabs/Rowing");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FSMU_UT_60_Motion_LoRes.mp4?alt=media&token=92d005be-ba9a-4560-a077-5a7bdf7d430c"
+          );
+          setRoles(["Director: Stewart Cohen", "DP", "Colorist", "Editor"]);
+          setTitle("SMU WOMEN'S ROWING");
+          setDesc(
+            "SMU Women's rowing had set a team goal to be ranked #10 in the nation by the end of the season. In order to achieve a top ranked status, they have to compete with power house teams like #1 in the nation University of Texas. We went in and tried to cinematically portray these women competing."
           );
           break;
         case "6":

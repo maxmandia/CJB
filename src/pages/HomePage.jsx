@@ -20,7 +20,7 @@ function HomePage() {
         >
           <source
             src={
-              "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Reel2023_V3.mp4?alt=media&token=aec6ec1c-cbce-4fc7-be46-30773468fee6"
+              "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FCullenBlanchfield_DirectorDP_Reel_2023.mp4?alt=media&token=13a51f33-ef50-4f6f-a855-49bf32fb32b8"
             }
             type="video/mp4"
           />
