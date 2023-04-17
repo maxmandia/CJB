@@ -16,16 +16,16 @@ function Motion() {
   const arr = [
     "London",
     // "Hunt Institute Entrepreneur Campaign",
-    "NEXUS SECURITY",
+    "Nexus Security",
     "The Heart of Texas",
-    "SMU WOMEN'S ROWING",
+    "SMU Women's Rowing",
     // "Kessler Orchestra",
     // "LOVE IN THE MORNING/EVENING",
     "Carla Rockmore",
     "The Social Panacea",
     "PhaseOne Digitization",
     "Minerva",
-    "BORROW",
+    "Borrow",
     "Lightphone",
     "Fine Art America",
     "AMN Welcome Back",
@@ -124,7 +124,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">Reel</p>
+              <p className="video-text">DIRECTOR + DP REEL</p>
             </div>
           </div>
         </Link>
@@ -149,7 +149,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">Camera Operator Reel</p>
+              <p className="video-text">CAMERA OPERATOR REEL</p>
             </div>
           </div>
         </Link>
@@ -220,7 +220,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">The Heart of Texas</p>
+              <p className="video-text">THE HEART OF TEXAS</p>
             </div>
           </div>
         </Link>
@@ -289,7 +289,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">Fine Art America / SuperStock</p>
+              <p className="video-text">FINE ARTS AMERICA / SUPERSTOCK</p>
             </div>
           </div>
         </Link>
@@ -312,7 +312,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">The Social Panacea</p>
+              <p className="video-text">THE SOCIAL PANACEA</p>
             </div>
           </div>
         </Link>
@@ -335,7 +335,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">PhaseOne Digitization</p>
+              <p className="video-text">PHASEONE DIGITIZATION</p>
             </div>
           </div>
         </Link>
@@ -358,7 +358,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">Minerva</p>
+              <p className="video-text">MINERVA</p>
             </div>
           </div>
         </Link>
@@ -404,7 +404,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">Carla Rockmore</p>
+              <p className="video-text">CARLA ROCKMORE</p>
             </div>
           </div>
         </Link>
@@ -428,7 +428,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">AMN Welcome Back</p>
+              <p className="video-text">AMN WELCOME BACK</p>
             </div>
           </div>
         </Link>
@@ -451,7 +451,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">Lightphone</p>
+              <p className="video-text">LIGHTPHONE</p>
             </div>
           </div>
         </Link>
@@ -521,7 +521,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">More</p>
+              <p className="video-text">MORE</p>
             </div>
           </div>
         </Link>
