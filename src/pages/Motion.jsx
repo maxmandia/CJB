@@ -18,10 +18,13 @@ function Motion() {
     // "Hunt Institute Entrepreneur Campaign",
     "NEXUS SECURITY",
     "The Heart of Texas",
+    "SMU WOMEN'S ROWING",
     // "Kessler Orchestra",
     // "LOVE IN THE MORNING/EVENING",
     "Carla Rockmore",
+    "The Social Panacea",
     "PhaseOne Digitization",
+    "Minerva",
     "BORROW",
     "Lightphone",
     "Fine Art America",
@@ -57,10 +60,16 @@ function Motion() {
       navigate(`/motion/${1}`);
     } else if (span === "The Heart of Texas") {
       navigate(`/motion/${2}`);
+    } else if (span === "SMU WOMEN'S ROWING") {
+      navigate(`/motion/smu-rowing`);
+    } else if (span === "Minerva") {
+      navigate(`/motion/minerva`);
     } else if (span === "BORROW") {
       navigate(`/motion/${3}`);
     } else if (span === "Carla Rockmore") {
       navigate(`/motion/${5}`);
+    } else if (span === "The Social Panacea") {
+      navigate(`/motion/panacea`);
     } else if (span === "PhaseOne Digitization") {
       navigate(`/motion/${6}`);
     } else if (span === "Lightphone") {
@@ -94,41 +103,56 @@ function Motion() {
         </p>
       </div>
       <div className="videos-container">
-        <div
-          className="motion-loop-container"
-          onClick={() => {
-            sourceRef.current.src =
-              "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Reel2023_V3.mp4?alt=media&token=aec6ec1c-cbce-4fc7-be46-30773468fee6";
-            reelRef.current.src =
-              "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Reel2023_V3.mp4?alt=media&token=aec6ec1c-cbce-4fc7-be46-30773468fee6";
-            reelRef.current.requestFullscreen();
-            reelRef.current.webkitRequestFullScreen();
-            console.log(sourceRef.current.src);
-          }}
-        >
-          <video
-            ref={reelRef}
-            playsInline
-            className="video"
-            autoPlay
-            muted
-            loop
-            id="motion-loop"
-            type="video/mp4"
-            style={{ border: "5px solid #66e9af" }}
-          >
-            <source
-              ref={sourceRef}
-              src={
-                "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/ReelThumbnail_Revised.mp4?alt=media&token=c2cecb28-2b1b-4321-a0e4-6f86a7c35b2c"
-              }
+        <Link to="/motion/reel">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
               type="video/mp4"
-            />
-          </video>
-          <div className="title-container">
-            <p className="video-text">Reel</p>
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FCullenBlanchfield_DirectorDP_Reel_2023.mp4?alt=media&token=13a51f33-ef50-4f6f-a855-49bf32fb32b8"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">Reel</p>
+            </div>
           </div>
-        </div>
+        </Link>
+        <Link to="/motion/operator-reel">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66h32n" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2Fthumbnails%2FOperatingReel_Thumbnail.mov?alt=media&token=107455ce-23df-4548-8a51-f7a193ed2d24"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">Camera Operator Reel</p>
+            </div>
+          </div>
+        </Link>
         <Link to="/motion/1">
           <div className="motion-loop-container">
             <video
@@ -200,6 +224,29 @@ function Motion() {
             </div>
           </div>
         </Link>
+        <Link to="/motion/smu-rowing">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #42B3FD" }}
+            >
+              <source
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2Fthumbnails%2FSMU_UT_Rowing_Thumbnail.mp4?alt=media&token=726d9636-9b63-4b79-ab8b-9a44117bb7f2"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">SMU WOMEN'S ROWING</p>
+            </div>
+          </div>
+        </Link>
         {/* <Link to="/motion/4">
           <div className="motion-loop-container">
             <video
@@ -246,6 +293,29 @@ function Motion() {
             </div>
           </div>
         </Link>
+        <Link to="/motion/panacea">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #dh32e7" }}
+            >
+              <source
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2Fthumbnails%2FSocialPanacea_Thumbnail.mp4?alt=media&token=fc988300-02ca-4d80-9cd8-f9646f3c34ce"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">The Social Panacea</p>
+            </div>
+          </div>
+        </Link>
         <Link to="/motion/6">
           <div className="motion-loop-container">
             <video
@@ -266,6 +336,29 @@ function Motion() {
             </video>
             <div className="title-container">
               <p className="video-text">PhaseOne Digitization</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/minerva">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #73219" }}
+            >
+              <source
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2Fthumbnails%2FMinerva_Thumbnail.mp4?alt=media&token=0947bd81-eb16-46d6-9b01-01729c7c1e56"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">Minerva</p>
             </div>
           </div>
         </Link>
