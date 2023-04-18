@@ -289,7 +289,7 @@ function Motion() {
               />
             </video>
             <div className="title-container">
-              <p className="video-text">FINE ARTS AMERICA / SUPERSTOCK</p>
+              <p className="video-text">FINE ART AMERICA / SUPERSTOCK</p>
             </div>
           </div>
         </Link>

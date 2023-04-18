@@ -1,7 +1,7 @@
 .stills-container {
   /* background-image: url("https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/windowsXP.webp?alt=media&token=34a367ea-c96a-417c-97e5-efc5998c67bb"); */
   background-color: black;
-  height: 100%;
+  height: 100vh;
   width: auto;
 }
 
