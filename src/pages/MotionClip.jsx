@@ -240,7 +240,7 @@ function MotionClip() {
       {URL ? (
         <div className="full-video-container">
           <h2 className="title">{title}</h2>
-          <video controls className="full-video">
+          <video controls className="full-video" controlsList="nodownload">
             <source src={URL} type="video/mp4" />
           </video>
           <div className="roles-container">
