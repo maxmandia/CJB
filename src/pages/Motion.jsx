@@ -16,21 +16,21 @@ function Motion() {
   const arr = [
     "London",
     // "Hunt Institute Entrepreneur Campaign",
-    // "Nexus Security",
+    "Nexus Security",
     "The Heart of Texas",
     "SMU Women's Rowing",
     // "Kessler Orchestra",
     // "LOVE IN THE MORNING/EVENING",
     "Carla Rockmore",
-    // "The Social Panacea",
+    "The Social Panacea",
     "PhaseOne Digitization",
-    // "Minerva",
-    // "Borrow",
+    "Minerva",
+    "Borrow",
     "Lightphone",
     "Fine Art America",
     "AMN Welcome Back",
-    // "HESHE",
-    // "Devaney Assembly",
+    "HESHE",
+    "Devaney Assembly",
   ];
 
   function appendChildren() {
@@ -153,7 +153,7 @@ function Motion() {
             </div>
           </div>
         </Link>
-        {/* <Link to="/motion/1">
+        <Link to="/motion/1">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -175,7 +175,7 @@ function Motion() {
               <p className="video-text">NEXUS SECURITY</p>
             </div>
           </div>
-        </Link> */}
+        </Link>
         <Link to="/motion/0">
           <div className="motion-loop-container">
             <video
@@ -293,7 +293,7 @@ function Motion() {
             </div>
           </div>
         </Link>
-        {/* <Link to="/motion/panacea">
+        <Link to="/motion/panacea">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -315,7 +315,7 @@ function Motion() {
               <p className="video-text">THE SOCIAL PANACEA</p>
             </div>
           </div>
-        </Link> */}
+        </Link>
         <Link to="/motion/6">
           <div className="motion-loop-container">
             <video
@@ -339,7 +339,7 @@ function Motion() {
             </div>
           </div>
         </Link>
-        {/* <Link to="/motion/minerva">
+        <Link to="/motion/minerva">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -361,8 +361,8 @@ function Motion() {
               <p className="video-text">MINERVA</p>
             </div>
           </div>
-        </Link> */}
-        {/* <Link to="/motion/3">
+        </Link>
+        <Link to="/motion/3">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -384,7 +384,7 @@ function Motion() {
               <p className="video-text">BORROW</p>
             </div>
           </div>
-        </Link> */}
+        </Link>
         <Link to="/motion/5">
           <div className="motion-loop-container">
             <video
@@ -456,7 +456,7 @@ function Motion() {
           </div>
         </Link>
 
-        {/* <Link to="/motion/10">
+        <Link to="/motion/10">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -478,8 +478,8 @@ function Motion() {
               <p className="video-text">HESHE</p>
             </div>
           </div>
-        </Link> */}
-        {/* <Link to="/motion/11">
+        </Link>
+        <Link to="/motion/11">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -501,7 +501,7 @@ function Motion() {
               <p className="video-text">The Devaney Collection</p>
             </div>
           </div>
-        </Link> */}
+        </Link>
         <Link to="/motion/other">
           <div className="motion-loop-container">
             <video
