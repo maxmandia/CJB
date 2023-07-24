@@ -17,9 +17,9 @@ function About() {
       <div className="about-container">
         <img src={Cullen} alt="me" />
         <p className="bio">
-          I've had the pleasure of growing up and living around the United
-          States including Upstate New York, The Bay Area in California,
-          Atlanta, Georgia, and Dallas, Texas. This has sparked my curiosity
+          I’ve had the pleasure of growing up and living around the United
+          States including Upstate New York, The San Francisco Bay Area,
+          Atlanta, Dallas, and now New York City. This has sparked my curiosity
           about the variety of life experiences around the world, and how
           important it is to share those stories that aren’t easily accessed.
         </p>
