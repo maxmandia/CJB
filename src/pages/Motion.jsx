@@ -14,7 +14,9 @@ function Motion() {
   const sourceRef = useRef();
   const [spanArr, setSpanArr] = useState([]);
   const arr = [
+    "CREDO",
     "London",
+    "Colorist Reel",
     // "Hunt Institute Entrepreneur Campaign",
     "Nexus Security",
     "The Heart of Texas",
@@ -60,7 +62,7 @@ function Motion() {
       navigate(`/motion/${1}`);
     } else if (span === "The Heart of Texas") {
       navigate(`/motion/${2}`);
-    } else if (span === "SMU WOMEN'S ROWING") {
+    } else if (span === "SMU Women's Rowing") {
       navigate(`/motion/smu-rowing`);
     } else if (span === "Minerva") {
       navigate(`/motion/minerva`);
@@ -82,6 +84,10 @@ function Motion() {
       navigate(`/motion/${10}`);
     } else if (span === "Devaney Assembly") {
       navigate(`/motion/${11}`);
+    } else if (span === "CREDO") {
+      navigate(`/motion/CREDO`);
+    } else if (span === "Colorist Reel") {
+      navigate(`/motion/Colorist-Reel`);
     }
   }
 
@@ -128,6 +134,31 @@ function Motion() {
             </div>
           </div>
         </Link>
+        <Link to="/motion/CREDO">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/CREDO%2FCREDO_TRAILER_LQ_V2.mp4?alt=media&token=dd47a915-ce1d-420b-b3c9-d68f89c51c47"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">CREDO</p>
+            </div>
+          </div>
+        </Link>
         <Link to="/motion/operator-reel">
           <div className="motion-loop-container">
             <video
@@ -150,6 +181,31 @@ function Motion() {
             </video>
             <div className="title-container">
               <p className="video-text">CAMERA OPERATOR REEL</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/Colorist-Reel">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/CREDO%2FColorist_Reel_V2_LQ_1.mp4?alt=media&token=4dfd4f84-7c45-4452-8275-2646c698a47f"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">COLORIST REEL</p>
             </div>
           </div>
         </Link>
