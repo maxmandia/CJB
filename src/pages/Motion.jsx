@@ -149,7 +149,7 @@ function Motion() {
               <source
                 ref={sourceRef}
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/CREDO%2FCREDO_TRAILER_LQ_V2.mp4?alt=media&token=dd47a915-ce1d-420b-b3c9-d68f89c51c47"
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FCREDO_TRAILER_THMBNL.mp4?alt=media&token=c766d12b-d5de-4ce6-87b2-c2df9ce299a7"
                 }
                 type="video/mp4"
               />
