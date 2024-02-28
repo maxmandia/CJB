@@ -97,15 +97,15 @@ function About() {
         </p>
         <div
           style={{
-            height: "200px",
-            width: "200px",
+            height: "100px",
+            width: "100px",
             margin: "auto",
           }}
         >
           <img
             style={{
-              height: "200px",
-              width: "200px",
+              height: "100px",
+              width: "100px",
             }}
             src={Logo}
             alt=""

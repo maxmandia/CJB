@@ -26,8 +26,8 @@ function Header(props) {
         <Link to={"/"}>
           <img
             style={{
-              height: "100px",
-              width: "100px",
+              height: "130px",
+              width: "130px",
             }}
             src={Logo}
             alt="logo"
