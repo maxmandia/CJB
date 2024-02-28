@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/footer.css";
 import { InstagramLogo } from "phosphor-react";
-import { Scroll } from "phosphor-react";
+import { YoutubeLogo } from "phosphor-react";
 import { LinkedinLogo } from "phosphor-react";
 import { EnvelopeSimple } from "phosphor-react";
 import IDMB from "../assets/idmb.png";
@@ -9,11 +9,11 @@ function Footer() {
   return (
     <div className="footer-container">
       <a
-        href="https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/UpdatedResume2023_V2.jpg?alt=media&token=feaf89a8-dbec-4111-9e44-1aeb285ca983"
+        href="https://www.youtube.com/channel/UCHcct3N7Bj9cFEkW_axn40Q"
         target="_blank"
         rel="noreferrer"
       >
-        <Scroll color="white" size={28} />
+        <YoutubeLogo color="white" size={28} />
       </a>
       <a
         href="https://www.instagram.com/cjbproductions/?hl=en"
