@@ -39,7 +39,7 @@ function Header(props) {
             onClick={() => {
               setShowNav(true);
             }}
-            color="white"
+            color="#F0C244"
             height={40}
             width={40}
           />

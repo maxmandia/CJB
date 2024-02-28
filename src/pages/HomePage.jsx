@@ -26,7 +26,7 @@ function HomePage() {
           >
             <source
               src={
-                "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewCuts_May%2FCullenBlanchfield_DirectorDP_Reel_2023_REVISED3.mp4?alt=media&token=0e5f6751-aae7-4e31-a6d1-6b40d20f76d2"
+                "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FDirectorDP_Thumbnail.mp4?alt=media&token=0136f811-7f80-462a-b2dc-836a3c0dea68"
               }
               type="video/mp4"
             />
