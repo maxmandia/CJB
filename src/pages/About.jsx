@@ -17,9 +17,8 @@ function About() {
       <div className="about-container">
         <img src={Cullen} alt="me" />
         <p className="bio">
-          Cullen Blanchfield is a Director/DP based in New York City,
-          specializing in capturing the human condition through documentary and
-          commercial projects.
+          I am a Director/DP based in New York City, specializing in capturing
+          the human condition through documentary and commercial projects.
         </p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
         <p className="bio">

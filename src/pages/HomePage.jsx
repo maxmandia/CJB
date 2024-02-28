@@ -33,8 +33,20 @@ function HomePage() {
           </video>
         </div>
         <div className="name-container">
-          <h2>Cullen Blanchfield</h2>
-          <h4>Director / Cinematographer / Photographer</h4>
+          <h2
+            style={{
+              color: "#f0c244",
+            }}
+          >
+            Cullen Blanchfield
+          </h2>
+          <h4
+            style={{
+              color: "#f0c244",
+            }}
+          >
+            Director / Cinematographer / Photographer
+          </h4>
         </div>
       </div>
       <div className="footer-container-home">
