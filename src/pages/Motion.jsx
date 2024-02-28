@@ -14,7 +14,16 @@ function Motion() {
   const sourceRef = useRef();
   const [spanArr, setSpanArr] = useState([]);
   const arr = [
+    "Grow a Better Dallas",
+    "Sharing Breath Has No Label",
     "A Million Smiles",
+    "Asphalt and Steel",
+    "It's Just Us",
+    "Along the Flaggy Shore",
+    "MERC",
+    "AMELIA",
+    "Dance With Me Sophie",
+    "Sweet Police",
     "London",
     // "Hunt Institute Entrepreneur Campaign",
     "Nexus Security",
@@ -73,6 +82,22 @@ function Motion() {
       navigate(`/motion/${9}`);
     } else if (span === "A Million Smiles") {
       navigate(`/motion/A-Million-Smiles`);
+    } else if (span === "Grow a Better Dallas") {
+      navigate(`/motion/grow-a-better-dallas`);
+    } else if (span === "Sharing Breath Has No Label") {
+      navigate(`/motion/sharing-breath-has-no-label`);
+    } else if (span === "Asphalt and Steel") {
+      navigate(`/motion/asphalt-and-steel`);
+    } else if (span === "It's Just Us") {
+      navigate(`/motion/its-just-us`);
+    } else if (span === "Along the Flaggy Shore") {
+      navigate(`/motion/along-the-flaggy-shore`);
+    } else if (span === "MERC") {
+      navigate(`/motion/merc`);
+    } else if (span === "Dance With Me Sophie") {
+      navigate(`/motion/dance-with-me-sophie`);
+    } else if (span === "Sweet Police") {
+      navigate(`/motion/sweet-police`);
     }
   }
 
@@ -119,6 +144,56 @@ function Motion() {
             </div>
           </div>
         </Link>
+        <Link to="/motion/grow-a-better-dallas">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FGrowABetterDallas_Thumbnail.mp4?alt=media&token=d91bd8dc-80ff-4c1a-b62f-d87febff8112"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">Grow a Better Dallas</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/sharing-breath-has-no-label">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FSharingBreathHasNoLabel_Thumbnail.mp4?alt=media&token=e0f7cea6-19c5-44f7-ad4f-adeed69777fd"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">Sharing Breath Has No Label</p>
+            </div>
+          </div>
+        </Link>
         <Link to="/motion/A-Million-Smiles">
           <div className="motion-loop-container">
             <video
@@ -134,13 +209,188 @@ function Motion() {
               <source
                 ref={sourceRef}
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FCREDO_TRAILER_THMBNL.mp4?alt=media&token=c766d12b-d5de-4ce6-87b2-c2df9ce299a7"
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FAMillionSmiles_Thumbnail.mp4?alt=media&token=9a92b8a3-0917-4654-a8ff-aa08d9035b4a"
                 }
                 type="video/mp4"
               />
             </video>
             <div className="title-container">
               <p className="video-text">A Million Smiles</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/asphalt-and-steel">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FAsphaltandSteel_Thumbnail.mp4?alt=media&token=1f2d1a71-f69c-4e44-8cca-2a3206d64f17"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">Asphalt and Steel</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/its-just-us">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FItsJustUs_Thumbnail.mp4?alt=media&token=60a7ad3a-ab72-4f74-b595-db4a49dab658"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">It's Just Us</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/along-the-flaggy-shore">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FFlaggyShore_Thumbnail.mp4?alt=media&token=38f757b0-2606-4ac4-abdb-8dc8e3d5a94a"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">Along the Flaggy Shore</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/merc">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FMerc_Thumbnail.mp4?alt=media&token=b9032b69-6ab1-43ba-9c8d-85718e70eaab"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">MERC</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/amelia">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FAMELIA_Thumbnail.mp4?alt=media&token=d037378d-7946-4096-b7c4-b905f136f200"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">AMELIA</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/dance-with-me-sophie">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FDanceWithMeSophie_Thumbnail.mp4?alt=media&token=33046aca-8248-4c27-9e05-29ac75f27017"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">Dance With Me Sophie</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/sweet-police">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FSweetPolice_Thumbnail.mp4?alt=media&token=7d6f610e-ef22-42f5-9ffb-9e91797a482c"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">Sweet Police</p>
             </div>
           </div>
         </Link>

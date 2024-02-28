@@ -45,12 +45,112 @@ function MotionClip() {
       switch (id) {
         case "reel":
           setURL(
-            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewCuts_May%2FCullenBlanchfield_DirectorDP_Reel_2023_REVISED3.mp4?alt=media&token=0e5f6751-aae7-4e31-a6d1-6b40d20f76d2"
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FCullenBlanchfield_Reel_2024_DIRECTOR_DP.mp4?alt=media&token=53c376a4-91a9-4383-90c8-bc55fd456ba7"
           );
+
           setRoles(["Director", "DP"]);
           setTitle("REEL");
           setDesc(
-            "As a director, I have also DP'd all of my projects. However, I have worked with multiple directors as a DP, and I love working with all kinds of different creatives. My passion is to portray and evoke human emotion cinematically. Capturing someone's personality through a lens is my favorite creative challenge and journey."
+            "Cullen Blanchfield is a Director/DP based in New York City, specializing in capturing the human condition through documentary and commercial projects"
+          );
+          break;
+        case "grow-a-better-dallas":
+          getImages("2024 Changes/Motion Grabs 2024/Grow a Better Dallas");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FGrow%20a%20Better%20Dallas%20Trailer.mp4?alt=media&token=c57eebe1-544c-4ea8-9a25-bdcac1163ace"
+          );
+          setRoles(["Director", "DP", "Editor"]);
+          setTitle("Grow a Better Dallas");
+          setDesc(
+            "'\"Grow a Better Dallas\" is a short documentary film showcasing South Dallas' Restorative Farms, a registered non-profit offering restorative justice and urban agriculture solutions to food and social injustice in South Dallas. Restorative Farms offers the ability for rehabilitation and therapeutic solutions to individuals with criminal backgrounds to contribute as employees to the farm. Restorative Farms was founded by Tyrone Day, who was falsely incarcerated for over 25 years. So often we aren't aware of the beauty right outside our door, and Restorative Farms is a perfect example of that. A hidden gem in Dallas, being able to unlock this story of their impact through a lens was one of the most impactful experiences of my life. I hope this film encourages everyone to challenge themselves on how they view others, and how they view their food.'"
+          );
+          break;
+        case "sharing-breath-has-no-label":
+          getImages(
+            "2024 Changes/Motion Grabs 2024/Sharing Breath Has No Label"
+          );
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FSBHNL_TRAILER_FINAL.mp4?alt=media&token=c0fd82d4-abf2-4e3b-aee5-59a9113da00d"
+          );
+          setRoles(["Director", "DP", "Editor"]);
+          setTitle("Sharing Breath Has No Label");
+          setDesc(
+            "The documentary film tells the story of the Credo Community Choir, a Dallas-based ensemble on a mission to foster acceptance through the power of music. Embark on a captivating journey from Dallas, Texas to Argentina and Uruguay, witnessing Credo's philanthropic endeavors to transform lives through the universal language of music."
+          );
+          break;
+        case "asphalt-and-steel":
+          getImages("2024 Changes/Motion Grabs 2024/Asphalt and Steel");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FAsphalt%26Steel_FinalCut.mp4?alt=media&token=b13c35d1-b828-44b1-9f17-6c416855deb1"
+          );
+          setRoles(["Director", "DP", "Editor", "Colorist"]);
+          setTitle("Asphalt and Steel");
+          setDesc(
+            "This short brand film promotes the hard working individuals that don’t get as much recognition from the public, the mechanics and motormen keeping the 100+ year old trolleys running for MATA. When I was living in Dallas I lived across the street from the trolley barn, and always thought to myself, “God I’d love to shoot in there”. Well after just one meeting with the phenomenal team at the M-Line Trolley, we began this project."
+          );
+          break;
+        case "its-just-us":
+          getImages("2024 Changes/Motion Grabs 2024/It's Just us");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FItsJustUs_FinalCut_LQ.mov.mp4?alt=media&token=ea005015-c972-4339-9366-138d62f92f87"
+          );
+          setRoles(["Director", "DP", "Editor", "Colorist"]);
+          setTitle("It's Just Us");
+          setDesc(
+            '"It\'s Just Us" is a short film about the project We Are All Homeless, and its founder Willie Baronet. We Are All Homeless is an art and advocacy project that began in 1993, exploring questions of compassion, humanity and what home really means.\n\nI am a former student of Willie Baronet at SMU, and was always influenced by his ability to unlock creativity in others, and in myself.\n\nWillie Baronet is the former owner and creative director of GroupBaronet (now MasonBaronet), and now teaches Creative Advertising at SMU Meadows School of the Arts. This film explores his impact on not just the homelessness awareness movement, but his students on a day-to-day basis.\n\nThe production of this short film took place during SMU’s first We Are All Homeless exhibition at the Meadows School of the Arts with collaboration with photographer Leah den Bok.'
+          );
+          break;
+        case "along-the-flaggy-shore":
+          getImages("2024 Changes/Motion Grabs 2024/Along the Flaggy Shore");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FFlaggyShore_HQ_FinalCut_V4_HD.mp4?alt=media&token=79302b37-1dfc-48d5-b51b-69214cf66802"
+          );
+          setRoles(["Director", "DP", "Editor", "Colorist"]);
+          setTitle("Along the Flaggy Shore");
+          setDesc(
+            'Led through the beautiful words of Seamus Heaney\'s "Postscript", we explore the beauty of Ireland\'s "Flaggy Shore", and the whim of traveling into unknown worlds.'
+          );
+          break;
+        case "merc":
+          getImages("2024 Changes/Motion Grabs 2024/MERC");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FMERC.mp4?alt=media&token=8b8d9f0a-5f5a-4da4-8319-2aa0d7179ad7"
+          );
+          setRoles(["DP", "Colorist"]);
+          setTitle("MERC");
+          setDesc(
+            "As the Director of Photography on this project I aimed to create striking and nostalgic images to help develop the story and aesthetic of NYC’s “MERC CHAPTER” fashion + jewelry brand. We based the story and visuals on Method Man’s “All I Need” music video with Mary J. Blige."
+          );
+          break;
+        case "amelia":
+          getImages("2024 Changes/Motion Grabs 2024/Amelia");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FAmeliaSummerVideo_LQ_FinalCut.mp4?alt=media&token=c2243580-af70-468d-8f7b-78a140ebe3e9"
+          );
+          setRoles(["Director", "DP", "Colorist"]);
+          setTitle("AMELIA");
+          setDesc("Why not go and run around NYC for a little?");
+          break;
+        case "dance-with-me-sophie":
+          getImages("2024 Changes/Motion Grabs 2024/Dance With Me Sophie");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FDance%20WIth%20Me%20Sophie%20Final%20Cut%20HQ.mp4?alt=media&token=e32ab65d-1f12-424e-b797-421388880115"
+          );
+          setRoles(["Director", "DP", "Colorist"]);
+          setTitle("Dance With Me Sophie");
+          setDesc(
+            "As the Director and DP of this project, I wanted to create a dynamic and fluid piece to compliment the fantastic choreography of musician/artist Joshua McCooey. This project brought us to a vintage gym in East Harlem, creating a nostalgic “high school dance” feel, aiding to the story that Joshua’s character plays in his head throughout the video.          "
+          );
+          break;
+        case "sweet-police":
+          getImages("2024 Changes/Motion Grabs 2024/Sweet Police");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FSweetPolice_HQ_V1.mp4?alt=media&token=58bced41-1466-446b-bca2-c6bbea4ad320"
+          );
+          setRoles(["Director", "DP", "Editor"]);
+          setTitle("Sweet Police");
+          setDesc(
+            "The Sweet Police are a new band forming out of the Lower East Side of Manhattan, looking to create an identity in rock and roll and alternative rock in the city. Here is their band launch video showing the band and a practice in the studio."
           );
           break;
         case "operator-reel":
@@ -229,14 +329,14 @@ function MotionClip() {
           );
           break;
         case "A-Million-Smiles":
-          getImages("MotionGrabs/CREDO");
+          getImages("2024 Changes/Motion Grabs 2024/A Million Smiles");
           setURL(
-            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/CREDO%2FCREDO_TRAILER_LQ_V2.mp4?alt=media&token=dd47a915-ce1d-420b-b3c9-d68f89c51c47"
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FAMillionSmiles_Thumbnail.mp4?alt=media&token=9a92b8a3-0917-4654-a8ff-aa08d9035b4a"
           );
-          setRoles(["Director", "DP", "Editor", "Colorist"]);
+          setRoles(["Director", "DP", "Producer"]);
           setTitle("A Million Smiles");
           setDesc(
-            "A Million Smiles is a registered 501(c)3 non-profit community choir based in Dallas, Texas. A Million Smiles is a non-denominational philanthropic choir that does not hold rehearsals for admitting members. A Million Smiles has always tried to reach the unreachable with their music. They step out on the groundless ground and strive to meet others where they are in their truth. Their many tours have been educational, at times scary, enlightening, and each one has repeatedly reminded us that singing empowers us to live stronger and love louder. Sharing Breath Has No Label is a short documentary centered on sharing A Million Smiles’s regardless of mentality of acceptance, and how singing and sharing music breaks down barriers and brings us all closer together."
+            "This film tells the untold story of registered non-profit Baseball Without Borders Foundation, which has been donating equipment to children in over 50 countries since 1995.This film brings you on a journey to BWB’s home of San Francisco, and the Yucatán Peninsula in Mexico. Our crowdfunded film focuses on the joy and hope BWB brings to children less fortunate around the world through baseball and softball. Baseball is America’s pastime, but a sport that creates change all over the world."
           );
           break;
         case "Colorist-Reel":
@@ -254,6 +354,7 @@ function MotionClip() {
       }
     }
   }, [id]);
+
   return (
     <div className="motion-clip-container">
       {showNav && <SideBar />}
