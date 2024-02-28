@@ -142,9 +142,11 @@
   align-items: center;
 }
 .video-text {
-  color: #f0c244;
+  color: white;
   font-size: 1.2rem;
   font-family: "HV-Med";
+  /* make it uppercase */
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 480px) {

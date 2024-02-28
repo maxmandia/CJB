@@ -129,12 +129,12 @@ function Motion() {
               loop
               id="motion-loop"
               type="video/mp4"
-              style={{ border: "5px solid #66e9af" }}
+              style={{ border: "5px solid #42B3FD" }}
             >
               <source
                 ref={sourceRef}
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewCuts_May%2FThumbnail_May2023_V1.mp4?alt=media&token=33ce7cb9-7f7a-4548-90fd-2069d98ceb22"
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FDirectorDP_Thumbnail.mp4?alt=media&token=0136f811-7f80-462a-b2dc-836a3c0dea68"
                 }
                 type="video/mp4"
               />
@@ -154,7 +154,7 @@ function Motion() {
               loop
               id="motion-loop"
               type="video/mp4"
-              style={{ border: "5px solid #66e9af" }}
+              style={{ border: "5px solid #4A818E" }}
             >
               <source
                 ref={sourceRef}
@@ -179,7 +179,7 @@ function Motion() {
               loop
               id="motion-loop"
               type="video/mp4"
-              style={{ border: "5px solid #66e9af" }}
+              style={{ border: "5px solid #8E4A6E" }}
             >
               <source
                 ref={sourceRef}
@@ -204,7 +204,7 @@ function Motion() {
               loop
               id="motion-loop"
               type="video/mp4"
-              style={{ border: "5px solid #66e9af" }}
+              style={{ border: "5px solid #C45532" }}
             >
               <source
                 ref={sourceRef}
@@ -229,7 +229,7 @@ function Motion() {
               loop
               id="motion-loop"
               type="video/mp4"
-              style={{ border: "5px solid #66e9af" }}
+              style={{ border: "5px solid #B9AA1F" }}
             >
               <source
                 ref={sourceRef}
@@ -254,7 +254,7 @@ function Motion() {
               loop
               id="motion-loop"
               type="video/mp4"
-              style={{ border: "5px solid #66e9af" }}
+              style={{ border: "5px solid #1FB92E" }}
             >
               <source
                 ref={sourceRef}
@@ -279,7 +279,7 @@ function Motion() {
               loop
               id="motion-loop"
               type="video/mp4"
-              style={{ border: "5px solid #66e9af" }}
+              style={{ border: "5px solid #B94D1F" }}
             >
               <source
                 ref={sourceRef}
@@ -304,7 +304,7 @@ function Motion() {
               loop
               id="motion-loop"
               type="video/mp4"
-              style={{ border: "5px solid #66e9af" }}
+              style={{ border: "5px solid #B91F1F" }}
             >
               <source
                 ref={sourceRef}
@@ -354,7 +354,7 @@ function Motion() {
               loop
               id="motion-loop"
               type="video/mp4"
-              style={{ border: "5px solid #66e9af" }}
+              style={{ border: "5px solid #471FB9" }}
             >
               <source
                 ref={sourceRef}

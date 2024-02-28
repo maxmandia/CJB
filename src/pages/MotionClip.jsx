@@ -20,6 +20,7 @@ function MotionClip() {
   const [title, setTitle] = useState(null);
   const [desc, setDesc] = useState(null);
   const [images, setImages] = useState([]);
+  const [poster, setPoster] = useState(null);
 
   async function getImages(id) {
     const listRef = ref(storage, id);
@@ -64,6 +65,9 @@ function MotionClip() {
           setDesc(
             "'\"Grow a Better Dallas\" is a short documentary film showcasing South Dallas' Restorative Farms, a registered non-profit offering restorative justice and urban agriculture solutions to food and social injustice in South Dallas. Restorative Farms offers the ability for rehabilitation and therapeutic solutions to individuals with criminal backgrounds to contribute as employees to the farm. Restorative Farms was founded by Tyrone Day, who was falsely incarcerated for over 25 years. So often we aren't aware of the beauty right outside our door, and Restorative Farms is a perfect example of that. A hidden gem in Dallas, being able to unlock this story of their impact through a lens was one of the most impactful experiences of my life. I hope this film encourages everyone to challenge themselves on how they view others, and how they view their food.'"
           );
+          setPoster(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Posters%2FGrowABetterDallas_Poster_V1.jpg?alt=media&token=706e79eb-1e3d-4b48-a30b-94f4249fab2e"
+          );
           break;
         case "sharing-breath-has-no-label":
           getImages(
@@ -77,6 +81,9 @@ function MotionClip() {
           setDesc(
             "The documentary film tells the story of the Credo Community Choir, a Dallas-based ensemble on a mission to foster acceptance through the power of music. Embark on a captivating journey from Dallas, Texas to Argentina and Uruguay, witnessing Credo's philanthropic endeavors to transform lives through the universal language of music."
           );
+          setPoster(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Posters%2FSharing%20Breath%20Has%20No%20Label%20Poster%202.jpg?alt=media&token=8bdd42aa-b5ee-436e-a4af-b2540176b9da"
+          );
           break;
         case "asphalt-and-steel":
           getImages("2024 Changes/Motion Grabs 2024/Asphalt and Steel");
@@ -87,6 +94,9 @@ function MotionClip() {
           setTitle("Asphalt and Steel");
           setDesc(
             "This short brand film promotes the hard working individuals that don’t get as much recognition from the public, the mechanics and motormen keeping the 100+ year old trolleys running for MATA. When I was living in Dallas I lived across the street from the trolley barn, and always thought to myself, “God I’d love to shoot in there”. Well after just one meeting with the phenomenal team at the M-Line Trolley, we began this project."
+          );
+          setPoster(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Posters%2FAsphalt%26SteelThumbnail.jpg?alt=media&token=5386dfeb-3c1e-4e88-bac0-16b8972841e1"
           );
           break;
         case "its-just-us":
@@ -99,6 +109,9 @@ function MotionClip() {
           setDesc(
             '"It\'s Just Us" is a short film about the project We Are All Homeless, and its founder Willie Baronet. We Are All Homeless is an art and advocacy project that began in 1993, exploring questions of compassion, humanity and what home really means.\n\nI am a former student of Willie Baronet at SMU, and was always influenced by his ability to unlock creativity in others, and in myself.\n\nWillie Baronet is the former owner and creative director of GroupBaronet (now MasonBaronet), and now teaches Creative Advertising at SMU Meadows School of the Arts. This film explores his impact on not just the homelessness awareness movement, but his students on a day-to-day basis.\n\nThe production of this short film took place during SMU’s first We Are All Homeless exhibition at the Meadows School of the Arts with collaboration with photographer Leah den Bok.'
           );
+          setPoster(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Posters%2FITSJUSTUS_Thumbnail.jpg?alt=media&token=9464499d-9ae2-4561-bde3-4127465d0a03"
+          );
           break;
         case "along-the-flaggy-shore":
           getImages("2024 Changes/Motion Grabs 2024/Along the Flaggy Shore");
@@ -109,6 +122,9 @@ function MotionClip() {
           setTitle("Along the Flaggy Shore");
           setDesc(
             'Led through the beautiful words of Seamus Heaney\'s "Postscript", we explore the beauty of Ireland\'s "Flaggy Shore", and the whim of traveling into unknown worlds.'
+          );
+          setPoster(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Posters%2FALONGTHEFLAGGYSHORE%20Poster.jpg?alt=media&token=05ffc10e-e3a3-49a4-8191-83c916787f7b"
           );
           break;
         case "merc":
@@ -172,6 +188,9 @@ function MotionClip() {
           setDesc(
             "Meet Donald London Alexander, a member of The Dallas Street Choir. Through his faith in God, London has lifted himself out of homelessness. The Dallas Street Choir’s mission is to offer a musical outlet for those affected by homelessness. I’ve had the pleasure of working with the Dallas Street Choir for over 5 years, massing over 70,000 views across their social media profiles. “LONDON” won both the Impact Grand Prize and Social Justice Awards at the Impact Short Film Festival in Seattle Washington. There were over 3000 submissions from around the world, varying in budgets from tens of thousands to zero-budget films like my own."
           );
+          setPoster(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Posters%2FLONDON-Final-Laurel-Poster.png?alt=media&token=d0b5905a-f7f9-4c2e-9ab3-a0021898ea38"
+          );
           break;
 
         case "1":
@@ -194,6 +213,9 @@ function MotionClip() {
           setTitle("The Heart of Texas");
           setDesc(
             "Dallas is home to over 100,000 refugees, where more than half come to Vickery Meadow nicknamed 'Mini United Nations'. In Vickery Meadow lies Heart House, an after-school program for refugee children specializing in Social Emotional Learning (SEL). 'The Heart of Texas' provides an outline of the child refugee crisis, and how Heart House provides impactful support to refugee children."
+          );
+          setPoster(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Posters%2FHeartofTXPoster2.png?alt=media&token=c7ef17c1-bff4-462d-899c-7c8f3bf0e579"
           );
           break;
         case "3":
@@ -338,6 +360,9 @@ function MotionClip() {
           setDesc(
             "This film tells the untold story of registered non-profit Baseball Without Borders Foundation, which has been donating equipment to children in over 50 countries since 1995.This film brings you on a journey to BWB’s home of San Francisco, and the Yucatán Peninsula in Mexico. Our crowdfunded film focuses on the joy and hope BWB brings to children less fortunate around the world through baseball and softball. Baseball is America’s pastime, but a sport that creates change all over the world."
           );
+          setPoster(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Posters%2FAMS-poster.jpg?alt=media&token=bee270a5-c839-4cf0-a428-8e59daee631f"
+          );
           break;
         case "Colorist-Reel":
           setURL(
@@ -404,8 +429,27 @@ function MotionClip() {
               <img id="film-logo" src={FilmFreeway} alt="idmb" />
             </a>
           )}
-
+          {title === "A Million Smiles" && (
+            <a
+              href="https://www.gofundme.com/f/baseball-without-borders-documentary-the-yucatan"
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                color: "white",
+                marginTop: "25px",
+              }}
+            >
+              gofundme
+            </a>
+          )}
           <article className="video-desc">{desc}</article>
+          {poster && (
+            <img
+              className="motion-grab-image"
+              src={poster}
+              alt="motion-poster"
+            ></img>
+          )}
           {images ? (
             <div className="images-container">
               {images.map((image) => {

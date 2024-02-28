@@ -46,7 +46,17 @@ function About() {
         </p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
         <div>
-          <span className="bio">About Essence Picture Company</span>
+          <span
+            className="bio"
+            style={{
+              fontWeight: "bold",
+              color: "#F0C244",
+              fontSize: "20px",
+              margin: "20px 0px",
+            }}
+          >
+            About Essence Picture Company
+          </span>
           <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
           <p className="bio">
             Founded and directed by award-winning cinematographer and
