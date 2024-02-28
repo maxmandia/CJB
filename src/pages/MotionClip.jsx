@@ -63,7 +63,7 @@ function MotionClip() {
           setRoles(["Director", "DP", "Editor"]);
           setTitle("Grow a Better Dallas");
           setDesc(
-            "'\"Grow a Better Dallas\" is a short documentary film showcasing South Dallas' Restorative Farms, a registered non-profit offering restorative justice and urban agriculture solutions to food and social injustice in South Dallas. Restorative Farms offers the ability for rehabilitation and therapeutic solutions to individuals with criminal backgrounds to contribute as employees to the farm. Restorative Farms was founded by Tyrone Day, who was falsely incarcerated for over 25 years. So often we aren't aware of the beauty right outside our door, and Restorative Farms is a perfect example of that. A hidden gem in Dallas, being able to unlock this story of their impact through a lens was one of the most impactful experiences of my life. I hope this film encourages everyone to challenge themselves on how they view others, and how they view their food.'"
+            "'\"Grow a Better Dallas\" is a short documentary film showcasing South Dallas' Restorative Farms, a registered non-profit offering restorative justice and urban agriculture solutions to food and social injustice in South Dallas. Restorative Farms offers the ability for rehabilitation and therapeutic solutions to individuals with criminal backgrounds to contribute as employees to the farm. Restorative Farms was founded by Tyrone Day, who was falsely incarcerated for over 25 years. So often we aren't aware of the beauty right outside our door, and Restorative Farms is a perfect example of that. A hidden gem in Dallas, being able to unlock this story of their impact through a lens was one of the most impactful experiences of my life. I hope this film encourages everyone to challenge themselves on how they view others, and how they view their food."
           );
           setPoster(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Posters%2FGrowABetterDallas_Poster_V1.jpg?alt=media&token=706e79eb-1e3d-4b48-a30b-94f4249fab2e"
@@ -79,7 +79,7 @@ function MotionClip() {
           setRoles(["Director", "DP", "Editor"]);
           setTitle("Sharing Breath Has No Label");
           setDesc(
-            "The documentary film tells the story of the Credo Community Choir, a Dallas-based ensemble on a mission to foster acceptance through the power of music. Embark on a captivating journey from Dallas, Texas to Argentina and Uruguay, witnessing Credo's philanthropic endeavors to transform lives through the universal language of music."
+            "This documentary film tells the story of the Credo Community Choir, a Dallas-based ensemble on a mission to foster acceptance through the power of music. Embark on a captivating journey from Dallas, Texas to Argentina and Uruguay, witnessing Credo's philanthropic endeavors to transform lives through the universal language of music."
           );
           setPoster(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/Posters%2FSharing%20Breath%20Has%20No%20Label%20Poster%202.jpg?alt=media&token=8bdd42aa-b5ee-436e-a4af-b2540176b9da"

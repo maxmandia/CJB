@@ -83,7 +83,7 @@ function About() {
             also refer to the characteristic features or qualities that define a
             person, object, concept, or phenomenon, capturing its unique and
             essential qualities. This is what we set out to capture every time
-            we pick up a camera. Let’s create something to inspire.
+            we pick up a camera.
           </p>
         </div>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -97,15 +97,15 @@ function About() {
         </p>
         <div
           style={{
-            height: "100px",
-            width: "100px",
+            height: "200px",
+            width: "200px",
             margin: "auto",
           }}
         >
           <img
             style={{
-              height: "100px",
-              width: "100px",
+              height: "200px",
+              width: "200px",
             }}
             src={Logo}
             alt=""
