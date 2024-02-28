@@ -228,15 +228,15 @@ function MotionClip() {
             "The Devaney Collection is a portfolio of over 100,000 pieces of negative film from the Devaney Agency that was previously based in New York City and later dissolved out of business. SuperStock Partners purchased the rights to this collection, and are giving this mid 1900s collection life for decades to come."
           );
           break;
-        case "CREDO":
+        case "A-Million-Smiles":
           getImages("MotionGrabs/CREDO");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/CREDO%2FCREDO_TRAILER_LQ_V2.mp4?alt=media&token=dd47a915-ce1d-420b-b3c9-d68f89c51c47"
           );
           setRoles(["Director", "DP", "Editor", "Colorist"]);
-          setTitle("CREDO");
+          setTitle("A Million Smiles");
           setDesc(
-            "Credo is a registered 501(c)3 non-profit community choir based in Dallas, Texas. Credo is a non-denominational philanthropic choir that does not hold rehearsals for admitting members. Credo has always tried to reach the unreachable with their music. They step out on the groundless ground and strive to meet others where they are in their truth. Their many tours have been educational, at times scary, enlightening, and each one has repeatedly reminded us that singing empowers us to live stronger and love louder. Sharing Breath Has No Label is a short documentary centered on sharing Credo’s regardless of mentality of acceptance, and how singing and sharing music breaks down barriers and brings us all closer together."
+            "A Million Smiles is a registered 501(c)3 non-profit community choir based in Dallas, Texas. A Million Smiles is a non-denominational philanthropic choir that does not hold rehearsals for admitting members. A Million Smiles has always tried to reach the unreachable with their music. They step out on the groundless ground and strive to meet others where they are in their truth. Their many tours have been educational, at times scary, enlightening, and each one has repeatedly reminded us that singing empowers us to live stronger and love louder. Sharing Breath Has No Label is a short documentary centered on sharing A Million Smiles’s regardless of mentality of acceptance, and how singing and sharing music breaks down barriers and brings us all closer together."
           );
           break;
         case "Colorist-Reel":

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Context } from "../App";
-import { ReactComponent as Logo } from "../assets/logo.svg";
+import Logo from "../assets/logo.png";
 import "../styles/header.css";
 import { List } from "phosphor-react";
 import { Link } from "react-router-dom";
@@ -24,7 +24,14 @@ function Header(props) {
     <div className={!isBlack ? "header-container" : "header-container-black"}>
       <div className="inner-header">
         <Link to={"/"}>
-          <Logo height={60} width={60} />
+          <img
+            style={{
+              height: "100px",
+              width: "100px",
+            }}
+            src={Logo}
+            alt="logo"
+          />
         </Link>
         {width <= 500 ? (
           <List

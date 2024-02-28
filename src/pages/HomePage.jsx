@@ -34,7 +34,7 @@ function HomePage() {
         </div>
         <div className="name-container">
           <h2>Cullen Blanchfield</h2>
-          <h4>Director / Cinematographer / Photographer / Colorist / Editor</h4>
+          <h4>Director / Cinematographer / Photographer</h4>
         </div>
       </div>
       <div className="footer-container-home">

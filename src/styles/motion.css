@@ -81,7 +81,7 @@
 
 .motion-desc-text span {
   color: black;
-  background-color: yellow;
+  background-color: #f0c244;
   padding: 0.2rem;
   margin: 0.5rem;
   word-wrap: break-word;
@@ -99,7 +99,7 @@
   }
   .motion-desc-text span {
     color: black;
-    background-color: yellow;
+    background-color: #f0c244;
     padding: 0.2rem;
     margin: 0.5rem;
   }
@@ -142,7 +142,7 @@
   align-items: center;
 }
 .video-text {
-  color: white;
+  color: #f0c244;
   font-size: 1.2rem;
   font-family: "HV-Med";
 }
