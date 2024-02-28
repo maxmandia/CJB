@@ -134,7 +134,7 @@ function Motion() {
               <source
                 ref={sourceRef}
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FDirectorDP_Thumbnail.mp4?alt=media&token=0136f811-7f80-462a-b2dc-836a3c0dea68"
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FDirectorDP_Thumbnail2.mp4?alt=media&token=64115fb1-79bf-483b-8a59-0aad276c3efc"
                 }
                 type="video/mp4"
               />
