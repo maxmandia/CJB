@@ -94,6 +94,19 @@ function About() {
           {" "}
           <img id="signature" src={Signature} alt="Signature" />
         </p>
+        <p className="bio">
+          Featured as one of{" "}
+          <a
+            style={{
+              color: "#F0C244",
+            }}
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.snappr.com/best-photographers/new-york-city-ny"
+          >
+            the best photographers in New York City
+          </a>
+        </p>
         <div
           style={{
             height: "100px",
