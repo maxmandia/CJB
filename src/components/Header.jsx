@@ -45,6 +45,9 @@ function Header(props) {
           />
         ) : (
           <nav>
+            <Link className="link" to={"/projects"}>
+              Projects
+            </Link>
             <Link className="link" to={"/motion"}>
               Motion
             </Link>

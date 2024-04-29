@@ -60,7 +60,7 @@ function MotionClip() {
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FGrow%20a%20Better%20Dallas%20Trailer.mp4?alt=media&token=c57eebe1-544c-4ea8-9a25-bdcac1163ace"
           );
-          setRoles(["Director", "DP", "Editor"]);
+          setRoles(["Director", "DP", "Photographer"]);
           setTitle("Grow a Better Dallas");
           setDesc(
             "'\"Grow a Better Dallas\" is a short documentary film showcasing South Dallas' Restorative Farms, a registered non-profit offering restorative justice and urban agriculture solutions to food and social injustice in South Dallas. Restorative Farms offers the ability for rehabilitation and therapeutic solutions to individuals with criminal backgrounds to contribute as employees to the farm. Restorative Farms was founded by Tyrone Day, who was falsely incarcerated for over 25 years. So often we aren't aware of the beauty right outside our door, and Restorative Farms is a perfect example of that. A hidden gem in Dallas, being able to unlock this story of their impact through a lens was one of the most impactful experiences of my life. I hope this film encourages everyone to challenge themselves on how they view others, and how they view their food."
@@ -70,9 +70,7 @@ function MotionClip() {
           );
           break;
         case "sharing-breath-has-no-label":
-          getImages(
-            "2024 Changes/Motion Grabs 2024/Sharing Breath Has No Label"
-          );
+          getImages("April2024Changes/SHARING BREATH HAS NO LABEL/IMAGES");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FSBHNL_TRAILER_FINAL.mp4?alt=media&token=c0fd82d4-abf2-4e3b-aee5-59a9113da00d"
           );
@@ -86,11 +84,11 @@ function MotionClip() {
           );
           break;
         case "asphalt-and-steel":
-          getImages("2024 Changes/Motion Grabs 2024/Asphalt and Steel");
+          getImages("April2024Changes/ASPHALT & STEEL/Still Photography");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FAsphalt%26Steel_FinalCut.mp4?alt=media&token=b13c35d1-b828-44b1-9f17-6c416855deb1"
           );
-          setRoles(["Director", "DP", "Editor", "Colorist"]);
+          setRoles(["Director", "DP", "Photographer"]);
           setTitle("Asphalt and Steel");
           setDesc(
             "This short brand film promotes the hard working individuals that don’t get as much recognition from the public, the mechanics and motormen keeping the 100+ year old trolleys running for MATA. When I was living in Dallas I lived across the street from the trolley barn, and always thought to myself, “God I’d love to shoot in there”. Well after just one meeting with the phenomenal team at the M-Line Trolley, we began this project."
@@ -114,11 +112,11 @@ function MotionClip() {
           );
           break;
         case "along-the-flaggy-shore":
-          getImages("2024 Changes/Motion Grabs 2024/Along the Flaggy Shore");
+          getImages("April2024Changes/THE FLAGGY SHORE/STILL PHOTOGRAPHY");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FFlaggyShore_HQ_FinalCut_V4_HD.mp4?alt=media&token=79302b37-1dfc-48d5-b51b-69214cf66802"
           );
-          setRoles(["Director", "DP", "Editor", "Colorist"]);
+          setRoles(["Director", "DP", "Photographer"]);
           setTitle("Along the Flaggy Shore");
           setDesc(
             'Led through the beautiful words of Seamus Heaney\'s "Postscript", we explore the beauty of Ireland\'s "Flaggy Shore", and the whim of traveling into unknown worlds.'
@@ -139,11 +137,11 @@ function MotionClip() {
           );
           break;
         case "amelia":
-          getImages("2024 Changes/Motion Grabs 2024/Amelia");
+          getImages("April2024Changes/AMELIA");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FAmeliaSummerVideo_LQ_FinalCut.mp4?alt=media&token=c2243580-af70-468d-8f7b-78a140ebe3e9"
           );
-          setRoles(["Director", "DP", "Colorist"]);
+          setRoles(["Director", "DP", "Photographer"]);
           setTitle("AMELIA");
           setDesc("Why not go and run around NYC for a little?");
           break;
@@ -374,6 +372,90 @@ function MotionClip() {
             "Coloring multiple award winning films, large scale commercials, and documentaries, I have a breadth of experience in DaVinci Resolve. Whether it’s attaching an emotion or theme to a color palette, or igniting a project with vibrancy, I have a strong understanding of the importance of properly and tactically grading a project."
           );
           break;
+        case "thesis":
+          getImages("April2024Changes/THESIS");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/April2024Changes%2FTHESIS%2FThesisReel.mp4?alt=media&token=c7e87a47-a67b-439b-b42f-3013cecd58bc"
+          );
+          setRoles(["Colorist"]);
+          setTitle("THESIS");
+          setDesc(
+            "Coming in as the Director of Photography on this project I had the pleasure of lensing one of Take Thesis’s most important shoots to date, their “Founders Shoot” with CEO/Founder Dan Freed. Here is a sizzle of the campaign."
+          );
+          break;
+        case "lost-connection":
+          getImages("April2024Changes/LOST CONNECTION");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/April2024Changes%2FLOST%20CONNECTION%2Flost_connection_clean_cut%20(1080p).mp4?alt=media&token=2e1b97ec-4cff-405a-acd5-fc7953733411"
+          );
+          setRoles(["Colorist"]);
+          setTitle("LOST CONNECTION");
+          setDesc(
+            "Working in the narrative space is always a privilege, and exciting exercise. A long-term best friend of mine wrote this script based on his first experience in New York City, and we teamed up to create a relatable yet niche story that hints at the human experience of dating in The Big Apple."
+          );
+          break;
+
+        case "the-craft-mouawad":
+          getImages("April2024Changes/MOUAWAD/STILL PHOTOGRAPHY");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/April2024Changes%2FMOUAWAD%2FMouwad_DirectorsCut_MP4.mp4?alt=media&token=f869ecb5-fef5-45a8-ace6-14370b66441a"
+          );
+          setRoles(["Director", "DP", "Photographer"]);
+          setTitle("THE CRAFT - MOUAD");
+          setDesc(
+            "Working with a piece of jewelry that’s worth more than your entire college tuition is quite an interesting and delicate opportunity. Being able to go in and capture the process of creating such a beautiful piece of jewelry for Mouawad in New York City was riveting. Getting to know the jewelers, and being welcomed into their little family was a joy. Projects like this fascinate me, and help me appreciate the precise detail that goes into the beautiful things we enjoy."
+          );
+          break;
+
+        case "santa-susana":
+          getImages("April2024Changes/SANTA SUSANA/STILL PHOTOGRAPHY");
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/April2024Changes%2FSANTA%20SUSANA%2FSantaSusana_Sizzle_FinalCut_Film_MP4.mp4?alt=media&token=4559a565-f567-4fb6-ac9f-665577d4d35a"
+          );
+          setRoles(["Director", "DP", "Photographer"]);
+          setTitle("SANTA SUSANA");
+          setDesc(
+            "Santa Susana Ranch is a quiet, Argentinian family owned ranch 50 miles outside of Buenos Aires. Approaching this gem, you are unsure of what you are going to see. All of a sudden, you are greeted with warm smiles and familial joy from both the gauchos and family. The modesty of the people at Santa Susana was grounding, and through my lenses I wanted to try and glorify the work they view as just a normal part of their lives. The gauchos live on the ranch, and have a distinct bond with all of the horses. Being able to experience this little ranch was something I’ll never forget."
+          );
+          break;
+
+        case "cazcabel":
+          getImages("April2024Changes/CAZCABEL/STILL PHOTOGRAPHY");
+          setRoles(["Photographer"]);
+          setTitle("CAZCABEL");
+          setDesc(
+            "Crafted in Mexico, branded in London, and sold worldwide. Cazcabel Tequila is a premium tequila created in the Jalisco Mountains in Mexico, and loved all over the globe. For their first brand campaign in the United States, I was brought in to capture their bottles in a way that captures the attention of the viewer, and interests them in the “Tequila for All” mission of Cazcabel. "
+          );
+          break;
+
+        case "nutrisystem":
+          getImages("April2024Changes/NUTRISYSTEM/STILL PHOTOGRAPHY");
+          setRoles(["Photographer"]);
+          setTitle("NUTRISYSTEM");
+          setDesc(
+            "Part of being both a Director and Photographer is being able to complement both the moving and still image. On this campaign for Nutrisystem, I served as the still photographer, capturing their “Partner Program”. It was a blast to capture these amazing couples, and a perfect fit for me, working with real people and bringing out their best moments."
+          );
+          break;
+
+        case "savvy-wealth":
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/April2024Changes%2FSAVVY%2FSavvyWealth_Leadership_Sizzle_V2.mp4?alt=media&token=e9c9f3c9-a50e-48a3-ab3b-7c755e1e188a"
+          );
+          getImages("April2024Changes/SAVVY/STILL PHOTOGRAPHY");
+          setRoles(["Photographer"]);
+          setTitle("SAVVY WEALTH");
+          setDesc(
+            "A wealth management company that’s experienced incredible product velocity, Savvy Wealth, needed to add a professional touch to their digital footprint. I came in as the Director/DP of this two video campaign in attempt to create visually engaging content that will attract more wealth managers and leadership to their startup"
+          );
+          break;
+        case "my-center-within":
+          getImages("April2024Changes/MYCENTERWITHIN/STILL PHOTOGRAPHY");
+          setRoles(["Photographer"]);
+          setTitle("MY CENTER WITHIN");
+          setDesc(
+            "My Center Within is a sacred space for the divine feminine. Through connection, acceptance, and compassionate listening you explore who you are and what is meaningful to you. We heal when we feel safe and are able to connect to our hearts, our center within, to a deeper sense of knowingness that we carry unique gifts to share. As we discover and honor our gifts, our light shines brighter in this world. Sara’s offerings blend a deep understanding of the human heart."
+          );
+          break;
         default:
           return;
       }
@@ -384,91 +466,92 @@ function MotionClip() {
     <div className="motion-clip-container">
       {showNav && <SideBar />}
       <Header isBlack={true} />
-      {URL ? (
-        <div className="full-video-container">
-          <h2 className="title">{title}</h2>
+
+      <div className="full-video-container">
+        <h2 className="title">{title}</h2>
+        {URL && (
           <video controls className="full-video" controlsList="nodownload">
             <source src={URL} type="video/mp4" />
           </video>
-          <div className="roles-container">
-            {roles &&
-              roles.map((role) => {
-                return <p className="role">{role}</p>;
-              })}
-          </div>
-          {title === "Lightphone" && (
-            <div className="roles-container">
-              <p className="role">Director + DP Stewart Cohen</p>
-            </div>
-          )}
-          {title === "Carla Rockmore" && (
-            <div className="roles-container">
-              <p className="role">Director + DP: Stewart Cohen</p>
-            </div>
-          )}
-          {title === "AMN Welcome Back" && (
-            <div className="roles-container">
-              <p className="role">Director: Stewart Cohen</p>
-            </div>
-          )}
-          {title === "LONDON" && (
-            <a
-              href="https://filmfreeway.com/LondonDallasStreetChoir"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img id="film-logo" src={FilmFreeway} alt="idmb" />
-            </a>
-          )}
-          {title === "The Heart of Texas" && (
-            <a
-              href="https://filmfreeway.com/TheHeartofTexas"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img id="film-logo" src={FilmFreeway} alt="idmb" />
-            </a>
-          )}
-          {title === "A Million Smiles" && (
-            <a
-              href="https://www.gofundme.com/f/baseball-without-borders-documentary-the-yucatan"
-              target="_blank"
-              rel="noreferrer"
-              style={{
-                color: "white",
-                marginTop: "25px",
-              }}
-            >
-              gofundme
-            </a>
-          )}
-          <article className="video-desc">{desc}</article>
-          {poster && (
-            <img
-              className="motion-grab-image"
-              src={poster}
-              alt="motion-poster"
-            ></img>
-          )}
-          {images ? (
-            <div className="images-container">
-              {images.map((image) => {
-                return (
-                  <img
-                    className="motion-grab-image"
-                    src={image}
-                    alt="motion-still"
-                  />
-                );
-              })}
-            </div>
-          ) : (
-            <></>
-          )}
+        )}
+
+        <div className="roles-container">
+          {roles &&
+            roles.map((role) => {
+              return <p className="role">{role}</p>;
+            })}
         </div>
-      ) : (
-        <></>
-      )}
+        {title === "Lightphone" && (
+          <div className="roles-container">
+            <p className="role">Director + DP Stewart Cohen</p>
+          </div>
+        )}
+        {title === "Carla Rockmore" && (
+          <div className="roles-container">
+            <p className="role">Director + DP: Stewart Cohen</p>
+          </div>
+        )}
+        {title === "AMN Welcome Back" && (
+          <div className="roles-container">
+            <p className="role">Director: Stewart Cohen</p>
+          </div>
+        )}
+        {title === "LONDON" && (
+          <a
+            href="https://filmfreeway.com/LondonDallasStreetChoir"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img id="film-logo" src={FilmFreeway} alt="idmb" />
+          </a>
+        )}
+        {title === "The Heart of Texas" && (
+          <a
+            href="https://filmfreeway.com/TheHeartofTexas"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img id="film-logo" src={FilmFreeway} alt="idmb" />
+          </a>
+        )}
+        {title === "A Million Smiles" && (
+          <a
+            href="https://www.gofundme.com/f/baseball-without-borders-documentary-the-yucatan"
+            target="_blank"
+            rel="noreferrer"
+            style={{
+              color: "white",
+              marginTop: "25px",
+            }}
+          >
+            gofundme
+          </a>
+        )}
+        <article className="video-desc">{desc}</article>
+        {poster && (
+          <img
+            className="motion-grab-image"
+            src={poster}
+            alt="motion-poster"
+          ></img>
+        )}
+        {images ? (
+          <div className="images-container">
+            {images.map((image) => {
+              return (
+                <img
+                  className="motion-grab-image"
+                  src={image}
+                  alt="motion-still"
+                />
+              );
+            })}
+          </div>
+        ) : (
+          <></>
+        )}
+      </div>
+
       <Footer />
     </div>
   );

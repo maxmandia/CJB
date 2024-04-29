@@ -20,6 +20,13 @@ function SideBar() {
         <Link
           onClick={() => setShowNav(false)}
           className="link-sidebar"
+          to={"/projects"}
+        >
+          Projects
+        </Link>
+        <Link
+          onClick={() => setShowNav(false)}
+          className="link-sidebar"
           to={"/motion"}
         >
           Motion

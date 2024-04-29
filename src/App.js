@@ -12,6 +12,7 @@ import { createContext, useState } from "react";
 import Portraits from "./pages/Portraits";
 import About from "./pages/About";
 import Other from "./pages/Other";
+import Projects from "./pages/Projects";
 export const Context = createContext();
 
 function App() {
@@ -20,6 +21,10 @@ function App() {
     {
       path: "/",
       element: <HomePage />,
+    },
+    {
+      path: "/projects",
+      element: <Projects />,
     },
     {
       path: "/motion",
