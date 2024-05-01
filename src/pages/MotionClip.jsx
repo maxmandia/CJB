@@ -56,7 +56,7 @@ function MotionClip() {
           );
           break;
         case "grow-a-better-dallas":
-          getImages("2024 Changes/Motion Grabs 2024/Grow a Better Dallas");
+          getImages("April2024Changes/GROW A BETTER DALLAS/Still Photography");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FMP4s%2FGrow%20a%20Better%20Dallas%20Trailer.mp4?alt=media&token=c57eebe1-544c-4ea8-9a25-bdcac1163ace"
           );
@@ -363,7 +363,7 @@ function MotionClip() {
           );
           break;
         case "A-Million-Smiles":
-          getImages("2024 Changes/Motion Grabs 2024/A Million Smiles");
+          getImages("April2024Changes/A MILLION SMILES/Still Photography");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/2024%20Changes%2FThumbnails%202024%2FAMillionSmiles_Thumbnail.mp4?alt=media&token=9a92b8a3-0917-4654-a8ff-aa08d9035b4a"
           );
