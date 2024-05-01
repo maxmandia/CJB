@@ -196,7 +196,14 @@ function MotionClip() {
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FCJB_NexusSecurity_Final.mp4?alt=media&token=506731e4-44c2-467c-822f-f8630284c943"
           );
-          setRoles(["Director", "Producer", "Editor", "DP", "Colorist"]);
+          setRoles([
+            "Director",
+            "Producer",
+            "Editor",
+            "DP",
+            "Colorist",
+            "Photographer",
+          ]);
           setTitle("NEXUS SECURITY");
           setDesc(
             "Nexus Security aims to resolve the precision agriculture access gap in Texas by improving the existing soil database of the region to make it easier to apply for these technologies in historically ignored areas. This initiative will improve the quality of life of farmers, increase resiliency ahead of an uncertain future, and secure our access to food and water as a nation. My task was to tell the story and impact of Nexus Security and their founder/CEO Michaela Emma."
@@ -221,7 +228,14 @@ function MotionClip() {
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FCJB_Borrow_Final.mp4?alt=media&token=d2168ffe-3545-433a-9aa5-d77edfc0bed9"
           );
-          setRoles(["Director", "Producer", "Editor", "DP", "Colorist"]);
+          setRoles([
+            "Director",
+            "Producer",
+            "Editor",
+            "DP",
+            "Colorist",
+            "Photographer",
+          ]);
           setTitle("BORROW");
           setDesc(
             "Borrow is a sustainable network that connects people to increase the value of what they own and reduce the waste they create. Their mission is to connect businesses and people to harness the advantage of great equipment and skilled professionals. My goal was to tell the story and impact of Borrow and their founder/CEO Katie Lewis."
@@ -254,7 +268,7 @@ function MotionClip() {
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FCJB_SocialPanacea_Final.mp4?alt=media&token=e92aa387-3e34-4eae-a521-eb9c44a76862"
           );
-          setRoles(["Director", "Editor", "DP"]);
+          setRoles(["Director", "Editor", "DP", "Photographer"]);
           setTitle("The Social Panacea");
           setDesc(
             "The Social Panacea is an app geared towards people with social anxiety making new friends. This app was founded in 2021 by Madison McMahan, and includes not only a network of potential future best friends, but best practices to use while meeting new people. My goal as the director of the project was to capture the authenticity of Madison, and her personal story with social anxiety."
@@ -265,7 +279,7 @@ function MotionClip() {
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2FCJB_Minerva_Final.mp4?alt=media&token=3ebda40d-8fd5-49cb-bd7c-1a8ba2600726"
           );
-          setRoles(["Director", "Editor", "DP"]);
+          setRoles(["Director", "Editor", "DP", "Photographer"]);
           setTitle("Minerva");
           setDesc(
             "Minerva has developed a scalable, low-cost, solar-powered, and small computer system that creates a mock internet for use by schools that simply can't afford internet. With Minerva, students and teachers have access to millions of digital resources, including video lectures, entire school courses and thousands of books - all without needing an internet connection. Minerva has developed a scalable, low-cost, solar-powered, and small computer system that creates a mock internet for use by schools that simply can't afford internet. With Minerva, students and teachers have access to millions of digital resources, including video lectures, entire school courses and thousands of books - all without needing an internet connection. My task as the director and DP was to capture the story and future plans of Minerva, in efforts to use this short video in fundraising and networking efforts. "
@@ -373,22 +387,22 @@ function MotionClip() {
           );
           break;
         case "thesis":
-          getImages("April2024Changes/THESIS");
+          getImages("April2024Changes/THESIS/MOTION GRABS");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/April2024Changes%2FTHESIS%2FThesisReel.mp4?alt=media&token=c7e87a47-a67b-439b-b42f-3013cecd58bc"
           );
-          setRoles(["Colorist"]);
+          setRoles(["DP", "Colorist"]);
           setTitle("THESIS");
           setDesc(
             "Coming in as the Director of Photography on this project I had the pleasure of lensing one of Take Thesis’s most important shoots to date, their “Founders Shoot” with CEO/Founder Dan Freed. Here is a sizzle of the campaign."
           );
           break;
         case "lost-connection":
-          getImages("April2024Changes/LOST CONNECTION");
+          getImages("April2024Changes/LOST CONNECTION/MOTION GRABS");
           setURL(
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/April2024Changes%2FLOST%20CONNECTION%2Flost_connection_clean_cut%20(1080p).mp4?alt=media&token=2e1b97ec-4cff-405a-acd5-fc7953733411"
           );
-          setRoles(["Colorist"]);
+          setRoles(["DP", "Colorist"]);
           setTitle("LOST CONNECTION");
           setDesc(
             "Working in the narrative space is always a privilege, and exciting exercise. A long-term best friend of mine wrote this script based on his first experience in New York City, and we teamed up to create a relatable yet niche story that hints at the human experience of dating in The Big Apple."
@@ -442,7 +456,7 @@ function MotionClip() {
             "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/April2024Changes%2FSAVVY%2FSavvyWealth_Leadership_Sizzle_V2.mp4?alt=media&token=e9c9f3c9-a50e-48a3-ab3b-7c755e1e188a"
           );
           getImages("April2024Changes/SAVVY/STILL PHOTOGRAPHY");
-          setRoles(["Photographer"]);
+          setRoles(["Director", "DP", "Photographer"]);
           setTitle("SAVVY WEALTH");
           setDesc(
             "A wealth management company that’s experienced incredible product velocity, Savvy Wealth, needed to add a professional touch to their digital footprint. I came in as the Director/DP of this two video campaign in attempt to create visually engaging content that will attract more wealth managers and leadership to their startup"
@@ -454,6 +468,17 @@ function MotionClip() {
           setTitle("MY CENTER WITHIN");
           setDesc(
             "My Center Within is a sacred space for the divine feminine. Through connection, acceptance, and compassionate listening you explore who you are and what is meaningful to you. We heal when we feel safe and are able to connect to our hearts, our center within, to a deeper sense of knowingness that we carry unique gifts to share. As we discover and honor our gifts, our light shines brighter in this world. Sara’s offerings blend a deep understanding of the human heart."
+          );
+          break;
+        case "the-hunt-institute":
+          setURL(
+            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/April2024Changes%2FTHE%20HUNT%20INSTITUTE%2FTunisianPrimeMinister.mp4?alt=media&token=c2cfdcc6-4de8-4c70-9a4e-bcd5c27b1383"
+          );
+          getImages("April2024Changes/THE HUNT INSTITUTE/TUNISIA STILLS");
+          setRoles(["Director", "DP", "Photographer"]);
+          setTitle("THE HUNT INSTITUTE");
+          setDesc(
+            "I had the ability to direct and DP a testimonial video for the Hunt Institute including a special message from the Prime Minister of Tunisia Najla Bouden. A group of prestigious women engineers from Tunisia came together at The Hunt Institute to workshop their startup ideas to bring back to their home country of Tunisia. I did my best to capture their energy, and joy to be in the United States and The Hunt Institute for Engineering and Humanity"
           );
           break;
         default:

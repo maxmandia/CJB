@@ -32,12 +32,11 @@ function Motion() {
     // "Along the Flaggy Shore",
     // "AMELIA",
     // "Hunt Institute Entrepreneur Campaign",
-    // "Nexus Security",
     // "Kessler Orchestra",
     // "LOVE IN THE MORNING/EVENING",
-    // "The Social Panacea",
-    // "Minerva",
-    // "Borrow",
+    "The Social Panacea",
+    "Minerva",
+    "Nexus Security",
   ];
 
   function appendChildren() {
@@ -434,6 +433,98 @@ function Motion() {
             </div>
           </div>
         </Link>
+        <Link to="/motion/minerva">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #73219" }}
+            >
+              <source
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2Fthumbnails%2FMinerva_Thumbnail.mp4?alt=media&token=0947bd81-eb16-46d6-9b01-01729c7c1e56"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">MINERVA</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/panacea">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #dh32e7" }}
+            >
+              <source
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2Fthumbnails%2FSocialPanacea_Thumbnail.mp4?alt=media&token=fc988300-02ca-4d80-9cd8-f9646f3c34ce"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">THE SOCIAL PANACEA</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/3">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #32AB17" }}
+            >
+              <source
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FBorrowThumbnail.mp4?alt=media&token=dfe5fc8f-5556-448d-9f8b-548d47544749"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">BORROW</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/1">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              style={{ border: "5px solid #1106B2" }}
+            >
+              <source
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NewThumbnails%2FNexusThumbnail.mp4?alt=media&token=aef3d5b9-2d2a-497f-baa9-30b4ce74d717"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">NEXUS SECURITY</p>
+            </div>
+          </div>
+        </Link>
         {/* <Link to="/motion/grow-a-better-dallas">
           <div className="motion-loop-container">
             <video
@@ -608,29 +699,7 @@ function Motion() {
             </div>
           </div>
         </Link>
-        <Link to="/motion/minerva">
-          <div className="motion-loop-container">
-            <video
-              playsInline
-              className="video"
-              autoPlay
-              muted
-              loop
-              id="motion-loop"
-              style={{ border: "5px solid #73219" }}
-            >
-              <source
-                src={
-                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/NEWCUTS_REELS_APRIL_2023%2Fthumbnails%2FMinerva_Thumbnail.mp4?alt=media&token=0947bd81-eb16-46d6-9b01-01729c7c1e56"
-                }
-                type="video/mp4"
-              />
-            </video>
-            <div className="title-container">
-              <p className="video-text">MINERVA</p>
-            </div>
-          </div>
-        </Link>
+        
         <Link to="/motion/3">
           <div className="motion-loop-container">
             <video

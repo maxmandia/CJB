@@ -24,7 +24,7 @@ function Projects() {
     "Cazcabel",
     "Nutrisystem",
     "Savvy Wealth",
-    "Hunt Institute Entrepreneur Campaign",
+    "The Hunt Institute",
     "My Center Within",
     "Amelia",
     "Sharing Breath Has No Label",
@@ -101,6 +101,8 @@ function Projects() {
       navigate(`/motion/savvy-wealth`);
     } else if (span === "My Center Within") {
       navigate(`/motion/my-center-within`);
+    } else if (span === "The Hunt Institute") {
+      navigate(`/motion/the-hunt-institute`);
     }
   }
 
@@ -357,6 +359,31 @@ function Projects() {
             </video>
             <div className="title-container">
               <p className="video-text">SAVVY WEALTH</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/motion/the-hunt-institute">
+          <div className="motion-loop-container">
+            <video
+              playsInline
+              className="video"
+              autoPlay
+              muted
+              loop
+              id="motion-loop"
+              type="video/mp4"
+              style={{ border: "5px solid #66e9af" }}
+            >
+              <source
+                ref={sourceRef}
+                src={
+                  "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/April2024Changes%2FTHE%20HUNT%20INSTITUTE%2FHUNT%20INSTITUTE%20THUMBNAIL.mp4?alt=media&token=37599c94-ed4e-40f9-84dc-549e65af5e45"
+                }
+                type="video/mp4"
+              />
+            </video>
+            <div className="title-container">
+              <p className="video-text">THE HUNT INSTITUTE</p>
             </div>
           </div>
         </Link>
