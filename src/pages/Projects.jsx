@@ -250,7 +250,7 @@ function Projects() {
             </div>
           </div>
         </Link>
-        <Link to="/motion/the-craft-mouawad">
+        {/* <Link to="/motion/the-craft-mouawad">
           <div className="motion-loop-container">
             <video
               playsInline
@@ -274,7 +274,7 @@ function Projects() {
               <p className="video-text">THE CRAFT - MOUAWAD</p>
             </div>
           </div>
-        </Link>
+        </Link> */}
         <Link to="/motion/santa-susana">
           <div className="motion-loop-container">
             <video

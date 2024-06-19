@@ -409,17 +409,17 @@ function MotionClip() {
           );
           break;
 
-        case "the-craft-mouawad":
-          getImages("April2024Changes/MOUAWAD/STILL PHOTOGRAPHY");
-          setURL(
-            "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/April2024Changes%2FMOUAWAD%2FMouwad_DirectorsCut_MP4.mp4?alt=media&token=f869ecb5-fef5-45a8-ace6-14370b66441a"
-          );
-          setRoles(["Director", "DP", "Photographer"]);
-          setTitle("THE CRAFT - MOUAD");
-          setDesc(
-            "Working with a piece of jewelry that’s worth more than your entire college tuition is quite an interesting and delicate opportunity. Being able to go in and capture the process of creating such a beautiful piece of jewelry for Mouawad in New York City was riveting. Getting to know the jewelers, and being welcomed into their little family was a joy. Projects like this fascinate me, and help me appreciate the precise detail that goes into the beautiful things we enjoy."
-          );
-          break;
+        // case "the-craft-mouawad":
+        //   getImages("April2024Changes/MOUAWAD/STILL PHOTOGRAPHY");
+        //   setURL(
+        //     "https://firebasestorage.googleapis.com/v0/b/cullen-blanchfield.appspot.com/o/April2024Changes%2FMOUAWAD%2FMouwad_DirectorsCut_MP4.mp4?alt=media&token=f869ecb5-fef5-45a8-ace6-14370b66441a"
+        //   );
+        //   setRoles(["Director", "DP", "Photographer"]);
+        //   setTitle("THE CRAFT - MOUAD");
+        //   setDesc(
+        //     "Working with a piece of jewelry that’s worth more than your entire college tuition is quite an interesting and delicate opportunity. Being able to go in and capture the process of creating such a beautiful piece of jewelry for Mouawad in New York City was riveting. Getting to know the jewelers, and being welcomed into their little family was a joy. Projects like this fascinate me, and help me appreciate the precise detail that goes into the beautiful things we enjoy."
+        //   );
+        //   break;
 
         case "santa-susana":
           getImages("April2024Changes/SANTA SUSANA/STILL PHOTOGRAPHY");
