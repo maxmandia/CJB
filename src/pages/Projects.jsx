@@ -19,7 +19,7 @@ function Projects() {
     "Sharing Breath Has No Label",
     "Asphalt And Steel",
     "Along The Flaggy Shore",
-    "The Craft - Mouawad",
+    // "The Craft - Mouawad",
     "Santa Susana",
     "Cazcabel",
     "Nutrisystem",
